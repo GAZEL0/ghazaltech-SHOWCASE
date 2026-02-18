@@ -1,0 +1,3306 @@
+{
+  "nav": {
+    "home": "Home",
+    "menuTitle": "Menu",
+    "services": "Services",
+    "projects": "Projects",
+    "workflow": "Workflow",
+    "contact": "Contact",
+    "templates": "Ready-made sites",
+    "customProject": "Custom project",
+    "referrals": "Referrals",
+    "login": "Sign in",
+    "register": "Create account",
+    "about": "About",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "caseStudies": "Case studies",
+    "servicesMenu": "Services",
+    "projectsMenu": "Projects",
+    "knowledgeMenu": "Knowledge",
+    "aboutMenu": "About",
+    "developersMenu": "Developers",
+    "frontend": "Front-end",
+    "servicesPage": "Services page",
+    "serviceWebsites": "Websites",
+    "serviceWebSystems": "Web systems",
+    "serviceSupport": "Technical Support & Annual Maintenance",
+    "serviceTechSolutions": "Tech solutions",
+    "serviceBms": "Custom Business Management Systems (BMS)",
+    "serviceCustomWeb": "Custom Web Solutions",
+    "serviceBusinessWebsites": "Business Websites",
+    "serviceEcommerce": "E-commerce Websites",
+    "servicePersonal": "Personal & Portfolio Websites",
+    "serviceAutomation": "Web Automation & Integrations",
+    "serviceAudit": "Technical Audit & Review"
+  },
+  "brand": {
+    "tagline": "Full-stack tech services",
+    "logoAlt": "Ghazal Tech logo"
+  },
+  "hero": {
+    "kicker": "Custom-built digital platforms",
+    "title": "Turn your ideas",
+    "highlight": "into real products your clients can use",
+    "desc": "At Ghazal Tech we build websites, admin portals, and full booking experiences - from the first line of code to file delivery and ongoing support, all in one place.",
+    "ctaPrimary": "Start your project",
+    "ctaSecondary": "See our work",
+    "meta1": "Transparent milestone tracking and fast feedback cycles",
+    "meta2": "Client dashboard: milestones, files, approvals, revisions"
+  },
+  "stack": {
+    "pillLabel": "Active clients",
+    "pillValue": "+16",
+    "card1Title": "Anadolu Fleet | Tracking Portal",
+    "card2Title": "Admin Console",
+    "card3Title": "Payments ready for review",
+    "card4Title": "Active referrals",
+    "card5Title": "Revision requests",
+    "device": "Deployable on all devices with monitored manual payments and proofs.",
+    "fees": "Pending fees",
+    "milestonesValue": "4 payments",
+    "referralBadge": "Referrals",
+    "revisionsBadge": "Revisions",
+    "referralsNew": "New referrals",
+    "referralsEarned": "Commissions earned",
+    "referralsPending": "Pending",
+    "referralsPaid": "Paid out",
+    "revisionsOpen": "Open revisions",
+    "revisionsInProgress": "In progress",
+    "revisionsBudget": "Budget",
+    "revisionsDeadline": "ETA"
+  },
+  "stats": {
+    "liveBadge": "Live now",
+    "progress": "Project progress",
+    "milestones": "Milestones cleared",
+    "files": "Files delivered",
+    "lastUpdate": "Last update",
+    "revisions": "Open revisions"
+  },
+  "services": {
+    "title": "Services built for real web systems",
+    "subtitle": "From business systems to focused websites, everything we deliver is web-based and built to scale.",
+    "cta": "Explore all services",
+    "cardCta": "View service",
+    "items": [
+      {
+        "title": "Custom Business Management Systems (BMS)",
+        "tag": "Main service",
+        "body": "Dashboards, roles, workflows, and reports built around your operations."
+      },
+      {
+        "title": "Custom Web Solutions",
+        "tag": "Custom",
+        "body": "Turn your idea into a scalable web system, from MVP to full platform."
+      },
+      {
+        "title": "Business Websites",
+        "tag": "Credibility",
+        "body": "Professional sites that build trust, support multiple languages, and convert."
+      },
+      {
+        "title": "E-commerce Websites",
+        "tag": "Commerce",
+        "body": "Products, orders, and admin control designed for selling online."
+      },
+      {
+        "title": "Personal & Portfolio Websites",
+        "tag": "Personal brand",
+        "body": "A clear, professional presence for individuals and their work."
+      },
+      {
+        "title": "Web Automation & Integrations",
+        "tag": "Automation",
+        "body": "APIs and automations that reduce manual work and connect tools."
+      },
+      {
+        "title": "Technical Support & Annual Maintenance",
+        "tag": "Support",
+        "body": "Yearly care plans to keep your web system secure, backed up, and stable."
+      },
+      {
+        "title": "Technical Audit & Review",
+        "tag": "Audit",
+        "body": "A clear technical report covering performance, security, and priorities."
+      }
+    ]
+  },
+  "strip": {
+    "label": "Partners and clients served by Ghazal Tech"
+  },
+  "workflow": {
+    "title": "How we handle each project",
+    "subtitle": "Simple steps with checkpoints for manual payments, invoices, and delivery.",
+    "steps": [
+      {
+        "label": "01 Requirements",
+        "title": "01 - We learn your idea in detail",
+        "text": "A quick call or detailed form to capture goals, audience, and core features."
+      },
+      {
+        "label": "02 Kickoff",
+        "title": "02 - Clear pricing and timeline",
+        "text": "You get a proposal with phases, expected time per phase, and cost for each part."
+      },
+      {
+        "label": "03 Build & track",
+        "title": "03 - Build and track from one dashboard",
+        "text": "Track status, phases, and files from your dashboard and get notified on every important update."
+      },
+      {
+        "label": "04 Delivery",
+        "title": "04 - Launch and post-delivery support",
+        "text": "We launch with you step-by-step and stay ready for paid improvements later."
+      }
+    ]
+  },
+  "why": {
+    "title": "Why choose Ghazal Tech",
+    "subtitle": "One platform for delivery, manual billing, and referrals.",
+    "reasons": [
+      {
+        "tag": "Transparency",
+        "label": "Clear pricing and phases",
+        "title": "Clear pricing and phases",
+        "text": "Every project is split into phases, with time and cost known before we write a single line of code."
+      },
+      {
+        "tag": "Control",
+        "label": "Your own tracking dashboard",
+        "title": "Your own tracking dashboard",
+        "text": "See request status, files, and payments, upload proof, and track approvals from one place."
+      },
+      {
+        "tag": "Focus",
+        "label": "We build less, but better",
+        "title": "We build less, but better",
+        "text": "We pick a few projects at a time to give each one the time and quality it deserves."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to start?",
+    "text": "Place a service request or talk to us to set milestones and payments. Everything stays logged in your dashboard.",
+    "primary": "Start a new request"
+  },
+  "contactPage": {
+    "infoTitle": "Contact info",
+    "email": "hello@example.com",
+    "phone": "+1 555 000 0000",
+    "locationTitle": "Our location",
+    "mapPlaceholder": "View on map",
+      "form": {
+        "name": "Full name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Send message",
+        "sending": "Sending...",
+        "error": "Something went wrong. Please try again."
+      },
+    "placeholders": {
+      "name": "Your name",
+      "email": "you@example.com",
+      "subject": "Example: Service request or question"
+    }
+  },
+  "work": {
+    "subtitle": "Selected projects showcasing manual payments and delivery.",
+    "cases": [
+      {
+        "title": "Anadolu Fleet",
+        "desc": "Maintenance & projects tracker with manual payments and proof uploads.",
+        "tag": "Web + Dashboard"
+      },
+      {
+        "title": "Al-Manar Clinic",
+        "desc": "Appointments, records, and manual invoices with receipt review.",
+        "tag": "Clinic Portal"
+      },
+      {
+        "title": "Syriapress Platform",
+        "desc": "Multi-language publishing with referral and payment flows.",
+        "tag": "Publishing"
+      },
+      {
+        "title": "BlueStay Hotels",
+        "desc": "Bookings with bank payments and invoice tracking.",
+        "tag": "Hospitality"
+      },
+      {
+        "title": "Nova Cars",
+        "desc": "Service and sales requests with payment review and alerts.",
+        "tag": "Automotive"
+      },
+      {
+        "title": "Campus Portal",
+        "desc": "Student accounts, invoices, and affiliate referrals.",
+        "tag": "Education"
+      }
+    ]
+  },
+  "footer": {
+    "copy": "\u00a9 2025 Ghazal Tech. All rights reserved.",
+    "built": "Engineered with Next.js, Tailwind CSS, and Prisma.",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use"
+  },
+  "dashboard": {
+    "dashboardLabel": "Dashboard",
+    "overview": "Your account overview",
+    "projects": "Your current projects",
+    "projectsLabel": "Client projects",
+    "payments": "Payments and proof uploads",
+    "paymentsLabel": "Milestone payments",
+    "invoices": "Invoices",
+    "invoicesLabel": "Invoices",
+    "referral": "Referral program",
+    "referralLabel": "Referral",
+    "revisions": "Paid revision requests",
+    "revisionsLabel": "Revision requests",
+    "projectDetailsLabel": "Project details",
+    "timeline": "Timeline",
+    "projectsSnapshot": "Projects snapshot",
+    "quickActions": {
+      "title": "Quick actions"
+    },
+    "actions": {
+      "requestRevision": "Request revision",
+      "uploadProof": "Upload payment proof",
+      "openSupport": "Open support ticket",
+      "addRevision": "Add paid revision",
+      "logout": "Logout",
+      "newOrder": "New order",
+      "newCustomProject": "Request a custom project",
+      "viewReadyMadeSites": "Browse ready-made sites"
+    },
+    "welcome": "Welcome, {name}",
+    "stats": {
+      "activeOrders": "Active orders",
+      "inProgress": "Projects in progress",
+      "pendingRevisions": "Pending revisions",
+      "pendingPayments": "Pending payments"
+    },
+    "updates": {
+      "title": "Last updates",
+      "paymentFor": "Payment for",
+      "revision": "Revision",
+      "empty": "No updates yet"
+    },
+    "pending": {
+      "title": "Pending items",
+      "revisions": "Pending revisions",
+      "payments": "Proofs to review",
+      "projects": "Projects in progress"
+    },
+    "projectsTable": {
+      "project": "Project",
+      "status": "Status",
+      "order": "Order ID",
+      "milestone": "Next milestone",
+      "milestoneValue": "{label} - USD {amount}",
+      "dueDate": "Due date",
+      "view": "View details",
+      "empty": "No projects yet"
+    },
+    "loading": "Loading...",
+    "paymentsForm": {
+      "project": "Project",
+      "selectProject": "Select a project",
+      "label": "Milestone label",
+      "labelPlaceholder": "Example: First payment",
+      "amount": "Amount",
+      "upload": "Upload proof"
+    },
+    "paymentsTable": {
+      "project": "Project",
+      "label": "Milestone",
+      "amount": "Amount",
+      "status": "Status",
+      "proof": "Proof",
+      "viewProof": "View proof",
+      "details": "Details",
+      "empty": "No payments yet"
+    },
+    "paymentsCard": {
+      "amount": "USD {amount}",
+      "due": "Due {date}",
+      "viewProof": "View proof",
+      "noProof": "No proof uploaded",
+      "noPayment": "No payment required",
+      "underReview": "Under review",
+      "markApproved": "Mark approved"
+    },
+    "invoicesTable": {
+      "invoice": "Invoice",
+      "amountDue": "Amount due",
+      "amountPaid": "Paid",
+      "status": "Status",
+      "link": "PDF",
+      "empty": "No invoices yet"
+    },
+    "invoiceRow": {
+      "amount": "USD {amount}",
+      "download": "Download",
+      "pending": "Pending"
+    },
+    "referralSection": {
+      "title": "Referral program",
+      "empty": "No referrals yet",
+      "requestPayout": "Request payout",
+      "referrals": "Referrals",
+      "earned": "Earned",
+      "available": "Available",
+      "pending": "Pending"
+    },
+    "revisionsTable": {
+      "project": "Project",
+      "title": "Title",
+      "status": "Status",
+      "amount": "Amount",
+      "createdAt": "Created",
+      "manage": "Manage",
+      "approve": "Approve",
+      "reject": "Reject",
+      "session": "Session",
+      "noSession": "No session scheduled",
+      "schedule": "Schedule session",
+      "editSchedule": "Edit schedule",
+      "sessionDate": "Session date",
+      "sessionDuration": "Duration (minutes)",
+      "sessionDurationLabel": "{minutes} min",
+      "saveSchedule": "Save session",
+      "sessionRequired": "Session date is required",
+      "durationRequired": "Session duration is required",
+      "amountRequired": "Amount is required",
+      "scheduleSaved": "Session scheduled",
+      "markComplete": "Complete session",
+      "complete": "Mark complete",
+      "completed": "Session completed",
+      "completedAt": "Completed: {date}",
+      "detailsTitle": "Session details",
+      "view": "View",
+      "propose": "Request new time",
+      "proposalTitle": "Client requested a new time",
+      "proposalNote": "Notes (optional)",
+      "saveProposal": "Send proposal",
+      "proposalSaved": "Proposal sent",
+      "proposalPending": "Reschedule requested",
+      "paymentProof": "Payment proof",
+      "paymentProofPlaceholder": "Paste payment proof URL",
+      "saveProof": "Save proof",
+      "proofSaved": "Payment proof saved",
+      "viewProof": "View proof",
+      "paymentRequired": "Please pay before the session starts.",
+      "requestDetails": "Request details",
+      "sessionNotes": "Session summary",
+      "sessionLinks": "Links & files",
+      "linksHint": "One link per line (URLs or image links)",
+      "minutes": "min",
+      "useProposal": "Use proposed time",
+      "close": "Close",
+      "empty": "No revisions yet"
+    },
+    "phases": {
+      "requirements": "Requirements",
+      "design": "Design",
+      "dev": "Development",
+      "qa": "Quality assurance",
+      "delivered": "Delivered"
+    },
+    "milestones": {
+      "title": "Milestone payments",
+      "empty": "No milestones yet"
+    },
+    "attachments": {
+      "title": "Attachments & updates",
+      "empty": "No attachments yet"
+    },
+    "revisionsSection": {
+      "title": "Revision requests",
+      "empty": "No revision requests yet"
+    },
+    "placeholders": {
+      "invoicesTitle": "Invoices",
+      "invoicesBody": "Your invoices will appear here once they are issued.",
+      "paymentsTitle": "Payments",
+      "paymentsBody": "Payment updates and proofs will appear here.",
+      "revisionsTitle": "Revision requests for {id}",
+      "revisionsBody": "Revision sessions and status updates will appear here."
+    },
+    "adminPanel": "Admin",
+    "admin": {
+      "label": "Admin",
+      "title": "Operations Console",
+      "refresh": "Refresh",
+      "emptyValue": "-",
+      "overview": "Admin",
+      "users": "Users",
+      "orders": "Orders",
+      "payments": "Payments",
+      "projects": "Projects",
+      "revisions": "Revisions",
+      "referrals": "Referrals",
+      "usersSection": "Users management",
+      "ordersSection": "Orders management",
+      "quotesSection": "Quotes",
+      "projectsSection": "Projects management",
+      "paymentsSection": "Payments review",
+      "revisionsSection": "Revisions management",
+      "referralsSection": "Referrals management",
+      "addCommission": "Add commission",
+      "developersFrontend": "Developers / Front-end",
+      "promote": "Make partner",
+      "demote": "Make client",
+      "selfRoleLocked": "You can't change your own role.",
+      "approve": "Approve",
+      "reject": "Reject",
+      "createProject": "Create project",
+      "moveToQA": "Move to QA",
+      "addMilestone": "Add milestone",
+      "actions": {
+        "start": "Start",
+        "complete": "Mark complete",
+        "add": "Add",
+        "upload": "Upload",
+        "send": "Send",
+        "archive": "Archive",
+        "collapse": "Collapse",
+        "expand": "Expand",
+        "markCompleted": "Mark completed"
+      },
+      "noActiveProjects": "No active projects",
+      "payOut": "Pay out",
+      "updateCommission": "Update commission",
+      "viewDetails": "View details",
+      "userDetails": "User details",
+      "detailsSection": "Account details",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "roleLabel": "Role",
+      "createdLabel": "Created",
+      "passwordSection": "Change password",
+      "passwordLabel": "New password",
+      "confirmPasswordLabel": "Confirm new password",
+      "updatePassword": "Update password",
+      "passwordUpdated": "Password updated",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordMismatch": "Passwords do not match",
+      "commissionSection": "Commission rate",
+      "commissionRateLabel": "Commission rate (%)",
+      "updateCommissionRate": "Update commission rate",
+      "commissionRateUpdated": "Commission rate updated",
+      "commissionRateInvalid": "Commission rate must be between 0 and 100",
+      "errors": {
+        "loadQuotes": "Failed to load quotes",
+        "sendQuote": "Failed to send quote",
+        "archiveQuote": "Failed to archive quote",
+        "updateCommission": "Failed to update commission",
+        "updatePassword": "Failed to update password"
+      },
+      "close": "Close",
+      "reviewOrder": "Review",
+      "archive": "Archive",
+      "ordersEmpty": "No orders yet.",
+      "quotesEmpty": "No quotes yet.",
+      "loadingQuotes": "Loading quotes...",
+      "copyMagicLink": "Copy magic link",
+      "quoteSent": "Quote sent.",
+      "quoteSentLink": "Quote sent. Magic link: {link}",
+      "quoteArchived": "Quote archived.",
+      "clientFallback": "Client",
+      "sentAt": "Sent {date}",
+      "usersEmpty": "No users yet.",
+      "orderReviewTitle": "Order review",
+      "orderDetails": "Order details",
+      "orderClient": "Client",
+      "orderRequest": "Request summary",
+      "orderFallback": "Order",
+      "approveAndQuote": "Approve & create quote",
+      "rejectOrder": "Reject",
+      "orderApproved": "Order approved and quote created.",
+      "orderApprovedLink": "Order approved. Magic link: {link}",
+      "orderRejected": "Order rejected.",
+      "orderNoRequest": "This order has no linked request to quote.",
+      "projectStatusLabel": "Status",
+      "updateProjectStatus": "Update status",
+      "paymentsSummaryTitle": "Payments summary",
+      "paymentsSummary": {
+        "bucket": "Bucket",
+        "project": "Project",
+        "label": "Label",
+        "amount": "Amount",
+        "status": "Status",
+        "empty": "No payments yet."
+      },
+      "paymentsBucket": {
+        "received": "Received",
+        "upcoming": "Upcoming",
+        "awaiting": "Awaiting review"
+      },
+      "projectModal": {
+        "title": "Project status",
+        "loading": "Loading project",
+        "orderId": "Order",
+        "statusSection": "Update status",
+        "currentStatus": "Current status",
+        "saveStatus": "Save status",
+        "advanceStatus": "Advance to next",
+        "lastUpdated": "Last updated",
+        "detailsSection": "Project details",
+        "status": "Status",
+        "created": "Created",
+        "noDescription": "No description yet.",
+        "phasesTitle": "Phases & deliverables",
+        "noPhases": "No phases yet.",
+        "noDeliverables": "No deliverables yet.",
+        "linkPlaceholder": "Paste a link",
+        "commentsTitle": "Comments",
+        "commentPlaceholder": "Add a comment",
+        "noComments": "No comments yet.",
+        "clientFallback": "Client",
+        "viewAttachment": "View attachment",
+        "attachmentLabel": "Attachment",
+        "milestonesSection": "Milestones & payments",
+        "noMilestones": "No milestones yet.",
+        "amount": "Amount"
+      },
+      "table": {
+        "client": "Client",
+        "user": "User",
+        "role": "Role",
+        "orders": "Orders",
+        "created": "Created",
+        "order": "Order",
+        "status": "Status",
+        "amount": "Amount",
+        "project": "Project",
+        "label": "Label",
+        "proof": "Proof",
+        "expires": "Expires",
+        "referrer": "Referrer",
+        "referred": "Referred",
+        "commission": "Commission",
+        "available": "Available",
+        "pending": "Pending",
+        "referralId": "Referral ID",
+        "enterId": "Enter ID"
+      },
+      "templates": "Templates",
+      "customRequests": "Custom requests",
+      "quotes": "Quotes",
+      "overviewCard": {
+        "title": "Overview",
+        "metric": "Metric",
+        "count": "Count",
+        "activeProjects": "Active projects",
+        "newOrders": "New orders",
+        "newRevisions": "Pending revisions",
+        "paymentsToReview": "Payments to review",
+        "upcomingDeadlines": "Deadlines in {days} days"
+      },
+      "alerts": {
+        "title": "Alerts",
+        "empty": "No alerts.",
+        "phaseDue": "{project} - {phase} due soon",
+        "paymentDue": "{project} - {label} payment due",
+        "unknownProject": "Unknown project"
+      },
+      "support": "Support",
+      "blog": "Blog",
+      "caseStudies": "Case studies"
+    },
+    "overviewSubtitle": "Track your projects, payments, and revision requests in one place.",
+    "emptyValue": "-",
+    "sidebar": {
+      "toggle": "Toggle sidebar"
+    },
+    "fileUploader": {
+      "upload": "Upload proof",
+      "uploading": "Uploading...",
+      "success": "Uploaded",
+      "errors": {
+        "uploadFailed": "Upload failed"
+      }
+    },
+    "revisionCard": {
+      "meta": "{project} - USD {amount}",
+      "approve": "Approve",
+      "reject": "Reject",
+      "view": "View"
+    },
+    "projectDetails": {
+      "awaitingPlan": "Awaiting execution plan from our team.",
+      "nextPayment": "Please pay the next milestone ({label}) so we can continue.",
+      "defaultRevisionNote": "Quick follow-up revision",
+      "paymentsTitle": "Payments",
+        "phasesTitle": "Phases & deliverables",
+        "dueLabel": "Due: {date}",
+        "requestRevision": "Request revision",
+        "requestChange": "Request change",
+        "requestModalTitleRevision": "Revision request",
+        "requestModalTitleChange": "Change request",
+        "requestRevisionDefault": "Revision - {phase}",
+        "requestChangeDefault": "Change request - {phase}",
+        "requestSubmit": "Send request",
+        "requestCancel": "Cancel",
+        "requestTitleRequired": "Please add a title for the request.",
+        "requestDetailsRequired": "Please add details for the request.",
+        "editChange": "Edit change",
+        "changeAmountRequired": "Please enter a valid amount.",
+        "start": "Start",
+      "markComplete": "Mark complete",
+      "noDeliverables": "No deliverables yet.",
+      "viewAsset": "View asset",
+      "linkPlaceholder": "Paste a link",
+      "addLink": "Add link",
+      "upload": "Upload",
+      "commentsTitle": "Comments",
+      "noComments": "No comments yet.",
+      "clientFallback": "Client",
+      "viewAttachment": "View attachment",
+      "commentPlaceholder": "Add a comment",
+      "attachmentLabel": "Attachment",
+      "send": "Send",
+      "noPhases": "No phases defined yet.",
+      "changeRequestsTitle": "Change requests",
+      "noChangeRequests": "No change requests yet.",
+      "amount": "USD {amount}",
+      "accept": "Accept",
+      "reject": "Reject",
+      "addChangeRequest": "Add change request",
+      "changeForm": {
+        "title": "Title",
+        "description": "Description",
+        "amount": "Amount"
+      },
+      "add": "Add"
+    },
+    "ordersPage": {
+      "kicker": "Orders",
+      "title": "Your orders",
+      "orderLabel": "Order {id}",
+      "customService": "Custom request",
+      "unknownDate": "Unknown date",
+      "amount": "USD {amount}",
+      "actions": {
+        "show": "Show details",
+        "hide": "Hide details"
+      },
+      "requestTitle": "Request",
+      "detailsTitle": "Details",
+      "requestMeta": "Budget: {budget} | Timeline: {timeline}",
+      "unknownValue": "Unknown",
+      "pendingSetup": "Pending setup details.",
+      "projectCreated": "Project created",
+      "notesLabel": "Notes: {notes}",
+      "phasesTitle": "Phases",
+      "awaitingPlan": "Awaiting plan",
+      "paymentsTitle": "Payments",
+      "noPaymentSchedule": "No payment schedule yet.",
+      "awaitingProject": "Awaiting project setup.",
+      "loading": "Loading orders...",
+      "empty": "No orders yet."
+    },
+    "quotesPage": {
+      "kicker": "Quotes",
+      "title": "Proposals & quotes",
+      "refresh": "Refresh",
+      "table": {
+        "client": "Client",
+        "amount": "Amount",
+        "status": "Status",
+        "expires": "Expires"
+      },
+      "clientFallback": "Client",
+      "noExpiry": "No expiry",
+      "view": "View",
+      "loading": "Loading quotes...",
+      "empty": "No quotes yet."
+    },
+    "quoteDetail": {
+      "kicker": "Quote",
+      "title": "Quote details",
+      "back": "Back",
+      "overview": "Overview",
+      "expired": "Expired",
+      "expires": "Expires",
+      "scopeLabel": "Scope",
+      "timelineLabel": "Timeline",
+      "deliveryLabel": "Delivery",
+      "phasesLabel": "Phases",
+      "phaseLabel": "Phase {index}",
+      "paymentScheduleLabel": "Payment schedule",
+      "milestoneLabel": "Milestone {index}",
+      "notesLabel": "Notes",
+      "amountLabel": "Amount",
+      "statusLabel": "Status",
+      "createdLabel": "Created",
+      "requestTitle": "Request",
+      "clientLabel": "Client",
+      "emailLabel": "Email",
+      "projectTypeLabel": "Project type",
+      "budgetLabel": "Budget",
+      "emptyValue": "-",
+      "loading": "Loading quote...",
+      "notFound": "Quote not found.",
+      "accept": "Accept",
+      "reject": "Reject"
+    },
+    "adminArchive": {
+      "kicker": "Archive",
+      "title": "Archived records",
+      "refresh": "Refresh",
+      "loading": "Loading archive...",
+      "restore": "Restore",
+      "emptyValue": "-",
+      "amount": "USD {amount}",
+      "errors": {
+        "load": "Failed to load archive"
+      },
+      "table": {
+        "project": "Project",
+        "status": "Status",
+        "archived": "Archived",
+        "label": "Label",
+        "amount": "Amount",
+        "client": "Client",
+        "order": "Order"
+      },
+      "sections": {
+        "projects": {
+          "title": "Archived projects",
+          "empty": "No archived projects."
+        },
+        "payments": {
+          "title": "Archived payments",
+          "empty": "No archived payments."
+        },
+        "quotes": {
+          "title": "Archived quotes",
+          "empty": "No archived quotes."
+        },
+        "orders": {
+          "title": "Archived orders",
+          "empty": "No archived orders."
+        }
+      },
+      "fallback": {
+        "client": "Client",
+        "order": "Order"
+      }
+    },
+    "supportNav": "Support",
+    "supportAdmin": {
+      "kicker": "Support",
+      "title": "Support dashboard",
+      "loading": "Loading...",
+      "refresh": "Refresh",
+      "emptyValue": "-",
+      "requestsTitle": "Support requests",
+      "subscriptionsTitle": "Active support plans",
+      "subscriptionsEmpty": "No active support plans.",
+      "table": {
+        "project": "Project",
+        "plan": "Plan",
+        "client": "Client",
+        "status": "Status",
+        "created": "Created",
+        "period": "Period",
+        "credits": "Credits",
+        "alerts": "Alerts"
+      },
+      "actions": {
+        "review": "Review",
+        "reject": "Reject",
+        "activate": "Activate plan",
+        "close": "Close"
+      },
+      "detailTitle": "Request details",
+      "detailPlan": "Plan",
+      "detailProjectType": "Project type",
+      "detailSite": "Site",
+      "detailBuiltByUs": "Built by Ghazal Tech",
+      "detailNotes": "Notes",
+      "reviewTitle": "Support request",
+      "activityTitle": "Activity log",
+      "activityItems": [
+        "Support plan activated",
+        "Bug fix delivered",
+        "Backup completed",
+        "Performance tuned"
+      ],
+      "yes": "Yes",
+      "no": "No",
+      "empty": "No support requests yet.",
+      "errors": {
+        "load": "Failed to load support requests.",
+        "update": "Failed to update request."
+      },
+      "planLabels": {
+        "CARE": "Care",
+        "CARE_PLUS": "Care+",
+        "GROWTH": "Growth",
+        "AUDIT": "Audit",
+        "unknown": "Unknown"
+      },
+      "subscriptionStatuses": {
+        "active": "Active",
+        "expiring": "Expiring",
+        "expired": "Expired"
+      },
+      "creditsUnit": "credits",
+      "alerts": {
+        "checkup": "Checkup due",
+        "backup": "Backup due",
+        "expiring": "Expiring soon",
+        "credits": "Credits usage"
+      }
+    },
+    "support": {
+      "kicker": "Support",
+      "title": "Your support plan",
+      "loading": "Loading...",
+      "refresh": "Refresh",
+      "emptyValue": "-",
+      "errors": {
+        "load": "Failed to load support requests."
+      },
+      "currentPlan": {
+        "title": "Current plan",
+        "plan": "Plan",
+        "ends": "Ends",
+        "credits": "Credits left",
+        "empty": "No active plan yet.",
+        "cta": "Explore plans"
+      },
+      "planStatus": {
+        "active": "Active",
+        "expiring": "Expiring",
+        "expired": "Expired"
+      },
+      "planLabels": {
+        "CARE": "Care",
+        "CARE_PLUS": "Care+",
+        "GROWTH": "Growth",
+        "AUDIT": "Audit",
+        "unknown": "Unknown"
+      },
+      "requestsTitle": "Your requests",
+      "table": {
+        "project": "Project",
+        "plan": "Plan",
+        "status": "Status",
+        "created": "Created"
+      },
+      "requestsEmpty": "No support requests yet.",
+      "activityTitle": "Work timeline",
+      "activityItems": [
+        "Plan activated",
+        "Bug fix delivered",
+        "Backup completed",
+        "Performance tuned"
+      ],
+      "activityEmpty": "Timeline will appear once a plan is active.",
+      "noteTitle": "Send a note",
+      "notePlaceholder": "Leave a comment or request a small update...",
+      "noteHelper": "We will review and respond within 24 business hours.",
+      "noteSubmit": "Send note",
+      "noteSuccess": "Note sent. We'll follow up soon.",
+      "creditsUnit": "credits"
+    },
+    "projectReview": {
+      "title": "Project review",
+      "description": "Share your feedback when the project is completed.",
+      "submitted": "Thank you, your feedback was submitted.",
+      "locked": "Review is locked after publishing.",
+      "rateButton": "Rate this project",
+      "editButton": "Edit rating",
+      "modalTitle": "Rate this project",
+      "ratingLabel": "Your rating",
+      "commentLabel": "Comment (optional)",
+      "save": "Submit review",
+      "saving": "Submitting...",
+      "saveError": "Failed to save review.",
+      "cancel": "Cancel"
+    }
+  },
+  "form": {
+    "login": {
+      "title": "Sign in",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in"
+    },
+    "paymentProof": {
+      "title": "Upload payment proof",
+      "helper": "Upload the bank transfer slip or payment receipt for this milestone."
+    }
+  },
+  "templates": {
+    "title": "Ready-made sites for sale",
+    "heroTitle": "Launch faster with pre-built sites",
+    "subtitle": "Pick a template, link it to a service, and get it delivered through your dashboard.",
+    "bullet": {
+      "pricing": "Transparent base pricing",
+      "speed": "Faster kickoff",
+      "dashboard": "Integrated with client dashboard"
+    },
+    "listingCount": "Available templates",
+    "listingHelper": "Each template creates an order and project tied to its service.",
+    "startingFrom": "Starting from",
+    "viewDetails": "View details",
+    "order": "Order this template",
+    "onlyClients": "Please sign in as a client to order.",
+    "orderError": "Unable to place template order.",
+    "empty": "No templates available yet.",
+    "demo": "View demo",
+    "serviceLinked": "Linked service: {service}",
+    "priceFrom": "From {price}",
+    "galleryTitle": "Preview gallery",
+    "previewTitle": "Responsive preview",
+    "emptyGallery": "Gallery coming soon."
+  },
+  "developersFrontend": {
+    "title": "Front-end snippets",
+    "subtitle": "Ready-to-use HTML, CSS, and JS UI snippets for fast builds.",
+    "searchPlaceholder": "Search snippets",
+    "selectedTags": "Selected tags",
+    "addTag": "Add tag",
+    "clear": "Clear",
+    "tagSearchPlaceholder": "Search tags",
+    "results": "{count} snippets",
+    "empty": {
+      "title": "No snippets found",
+      "body": "Try a different search or clear tags."
+    },
+    "code": {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS"
+    },
+    "actions": {
+      "copy": "Copy",
+      "copyAs": "Copy as...",
+      "copyHtml": "Copy HTML only",
+      "copyCss": "Copy CSS only",
+      "copyJs": "Copy JS only",
+      "copyFull": "Copy Full HTML file",
+      "preview": "Preview / Playground"
+    },
+    "playground": {
+      "title": "Playground",
+      "back": "Back to snippets",
+      "missing": "Snippet not found",
+      "missingBody": "This snippet may be unpublished or removed."
+    },
+    "categories": {
+      "component": "Component",
+      "style": "Style",
+      "interaction": "Interaction",
+      "layout": "Layout",
+      "tech": "Tech",
+      "color": "Color",
+      "useCase": "Use-case"
+    },
+    "pagination": {
+      "loadMore": "Load more"
+    },
+    "tagLimit": "Up to 12 tags"
+  },
+  "customProject": {
+    "title": "Request a custom project",
+    "hero": "Tell us what you need built",
+    "subtitle": "We review your scope, set a budget and timeline together, and track everything inside the dashboard.",
+    "guarantee": "We respond within 24-48h",
+    "guaranteeCopy": "Requests are reviewed manually; we follow up with a clear proposal.",
+    "success": {
+      "title": "Request received",
+      "body": "We will review your brief and contact you within 24-48 hours.",
+      "suggestAccount": "You can create an account to track this request from your dashboard later."
+    },
+    "form": {
+      "section": {
+        "contact": "Contact info",
+        "contactSubtitle": "Tell us how to reach you",
+        "business": "Business",
+        "businessSubtitle": "Company and industry details",
+        "project": "Project",
+        "projectSubtitle": "What type of build do you need?",
+        "scope": "Scope & budget",
+        "scopeSubtitle": "Budget range and timeline",
+        "references": "References",
+        "referencesSubtitle": "Share links you like",
+        "details": "Details",
+        "detailsSubtitle": "Describe the project in detail"
+      },
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+90...",
+      "companyName": "Company name",
+      "companyPlaceholder": "Optional",
+      "businessType": "Business type",
+      "businessPlaceholder": "Industry or niche",
+      "projectType": "Project type",
+      "selectPlaceholder": "Select...",
+      "projectOptions": {
+        "personal": "Personal website",
+        "business": "Business website",
+        "ecommerce": "E-commerce website",
+        "management": "Management system",
+        "custom": "Custom website",
+        "other": "Other"
+      },
+      "languages": "Languages",
+      "languageOptions": {
+        "ar": "Arabic",
+        "en": "English",
+        "tr": "Turkish",
+        "other": "Other"
+      },
+      "hasDomain": "Do you have a domain?",
+      "hasHosting": "Do you have hosting?",
+      "yes": "Yes",
+      "no": "No",
+      "budgetRange": "Budget range",
+      "budgetOptions": {
+        "lt1000": "< $1,000",
+        "mid1": "$1,000 - $2,000",
+        "mid2": "$2,000 - $4,000",
+        "gt4": "> $4,000"
+      },
+      "timeline": "Timeline",
+      "timelineOptions": {
+        "lt2w": "< 2 weeks",
+        "lt1m": "< 1 month",
+        "lt3m": "< 3 months",
+        "lt6m": "< 6 months"
+      },
+      "timelineBudgetHint": "This helps us choose the right tech for your timeline and budget, but it won't stop us from recommending the best fit for your goals.",
+      "referenceLinks": "Reference links",
+      "referencePlaceholder": "Paste any inspiration or competitor links",
+      "details": "Project details",
+      "detailsPlaceholder": "Describe features, goals, and any must-haves.",
+      "submitting": "Sending...",
+      "submit": "Submit request"
+    }
+  },
+  "marketing": {
+    "placeholders": {
+      "orderTitle": "Service order: {service}",
+      "orderBody": "This service order page is being prepared. Contact us to start now."
+    }
+  },
+  "templateOrder": {
+    "errors": {
+      "generic": "Something went wrong. Please try again."
+    },
+    "loadingShort": "Sending...",
+    "form": {
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "addOns": "Add-ons",
+      "addOnPlaceholder": "Add-on title",
+      "addAddOn": "Add add-on",
+      "removeAddOn": "Remove",
+      "notes": "Notes",
+      "close": "Close",
+      "submit": "Submit order",
+      "submitting": "Sending..."
+    }
+  },
+    "templatesAdmin": {
+    "label": "Templates",
+    "title": "Templates marketplace",
+    "create": "Create template",
+    "edit": "Edit",
+    "active": "Active",
+    "inactive": "Inactive",
+    "deactivate": "Deactivate",
+    "activate": "Activate",
+    "empty": "No templates yet.",
+    "emptyValue": "-",
+    "errors": {
+      "loadTemplates": "Failed to load templates",
+      "loadServices": "Failed to load services",
+      "saveTemplate": "Failed to save template",
+      "uploadMedia": "Upload failed"
+    },
+    "formTitlePlaceholder": "New template",
+    "close": "Close",
+    "upload": "Upload",
+    "uploading": "Uploading...",
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "category": "Category",
+      "service": "Service",
+      "price": "Base price",
+      "currency": "Currency",
+      "shortDescription": "Short description",
+      "longDescription": "Long description",
+      "demoUrl": "Demo URL",
+      "thumbUrl": "Thumbnail URL",
+      "thumbHelper": "First uploaded image becomes thumbnail if empty",
+      "laptopPreviewImage": "Laptop preview image",
+      "tabletPreviewImage": "Tablet preview image",
+      "mobilePreviewImage": "Mobile preview image",
+      "isActive": "Active"
+    },
+    "formEditHint": "Update details, pricing, and gallery for this template.",
+    "formCreateHint": "Link to a service so orders and projects stay in sync.",
+    "saving": "Saving...",
+    "save": "Save template",
+    "table": {
+      "title": "Title",
+      "slug": "Slug",
+      "category": "Category",
+      "price": "Price",
+      "status": "Status"
+    },
+      "gallery": {
+        "title": "Gallery",
+        "upload": "Upload image",
+        "uploading": "Uploading...",
+        "empty": "No media uploaded yet."
+      }
+    },
+    "snippetsAdmin": {
+      "label": "Developer library",
+      "title": "Front-end snippets",
+      "create": "New snippet",
+      "edit": "Edit",
+      "delete": "Delete",
+      "preview": "Preview",
+    "confirmDelete": "Delete this snippet?",
+    "empty": "No snippets yet.",
+    "emptyValue": "-",
+    "close": "Close",
+    "loading": "Loading...",
+    "filters": {
+      "searchPlaceholder": "Search snippets",
+      "all": "All"
+    },
+      "status": {
+        "draft": "Draft",
+        "published": "Published"
+      },
+      "table": {
+        "title": "Title",
+        "status": "Status",
+        "tags": "Tags",
+        "updated": "Last updated",
+        "actions": "Actions"
+      },
+      "form": {
+        "title": "Title",
+        "description": "Description (optional)",
+        "slug": "Slug",
+        "slugHint": "Auto-generated from the title if left blank.",
+        "status": "Status",
+        "tags": "Tags",
+        "tagsHint": "Select up to 12 tags.",
+        "addTag": "Add tag",
+        "tagSearchPlaceholder": "Search tags",
+        "newTag": "New tag",
+        "newTagPlaceholder": "e.g. hero",
+        "newTagCategory": "Category",
+        "addTagButton": "Add",
+        "codeHtml": "HTML",
+        "codeCss": "CSS",
+        "codeJs": "JS",
+        "save": "Save",
+        "saving": "Saving..."
+      },
+      "errors": {
+        "load": "Failed to load snippets",
+        "save": "Failed to save snippet",
+        "delete": "Failed to delete snippet",
+        "tagLimit": "Max 12 tags per snippet"
+      },
+      "categories": {
+        "component": "Component",
+        "style": "Style",
+        "interaction": "Interaction",
+        "layout": "Layout",
+        "tech": "Tech",
+        "color": "Color",
+        "useCase": "Use-case"
+      }
+    },
+    "customRequestsAdmin": {
+    "label": "Custom requests",
+    "title": "Inbound custom project requests",
+    "refresh": "Refresh",
+    "view": "View",
+    "markReviewed": "Mark as reviewed",
+    "reject": "Reject",
+    "empty": "No requests yet.",
+    "close": "Close",
+    "emptyValue": "-",
+    "yes": "Yes",
+    "no": "No",
+    "table": {
+      "fullName": "Client",
+      "businessType": "Business",
+      "projectType": "Project type",
+      "budget": "Budget",
+      "timeline": "Timeline",
+      "status": "Status"
+    },
+    "drawer": {
+      "title": "Request details",
+      "details": "Overview",
+      "detailsFull": "Details",
+      "languages": "Languages",
+      "domain": "Has domain?",
+      "hosting": "Has hosting?",
+      "createdAt": "Created",
+      "references": "Reference links"
+    },
+    "actions": {
+      "title": "Actions",
+      "service": "Attach service",
+      "selectService": "Select a service",
+      "totalAmount": "Total amount",
+      "amountPlaceholder": "e.g. 2500",
+      "projectTitle": "Project title",
+      "projectDescription": "Project description",
+      "userId": "User ID",
+      "userIdHelper": "Link a user before converting",
+      "convert": "Create order + project",
+      "converting": "Converting..."
+    },
+    "quoteForm": {
+      "title": "Quote",
+      "subtitle": "Include scope, timeline, and payment schedule for the client.",
+      "amount": "Amount",
+      "amountPlaceholder": "2000",
+      "expiresAt": "Expires at (optional)",
+      "expiresAtPlaceholder": "Defaults to 7 days",
+      "estimatedDelivery": "Estimated delivery",
+      "estimatedDeliveryPlaceholder": "Example: 6 weeks",
+      "scope": "Scope / notes",
+      "scopePlaceholder": "Describe deliverables and limits",
+      "projectTitle": "Project title",
+      "projectDescription": "Project description",
+        "timeline": "Project timeline & phases",
+        "timelinePlaceholder": "Example: Week 1 discovery, Week 2 design, Week 3-4 build & QA.",
+        "dueLabel": "Due: {date}",
+        "phasesTitle": "Work phases",
+      "addPhase": "Add phase",
+      "phaseTitlePlaceholder": "Phase title",
+      "phaseDescriptionPlaceholder": "Phase description",
+      "remove": "Remove",
+      "paymentSchedule": "Payment schedule",
+      "addMilestone": "Add milestone",
+      "paymentLabelPlaceholder": "First payment / kickoff",
+      "paymentAmountPlaceholder": "500",
+      "beforePhase": "Before phase (optional)",
+      "paymentNotes": "Payment & delivery notes (optional)",
+      "paymentNotesPlaceholder": "Add handover conditions, review rounds, or payment triggers.",
+      "saveDraft": "Save draft",
+      "send": "Send quote",
+      "defaultPaymentLabel": "Deposit / Phase 1",
+      "defaultPayment": "Milestone",
+      "phaseGroups": {
+        "requirements": "Requirements",
+        "design": "Design",
+        "dev": "Development",
+        "qa": "Quality assurance",
+        "delivered": "Delivered"
+      },
+      "errors": {
+        "amountRequired": "Amount is required",
+        "invalidField": "Invalid field",
+        "createFailed": "Failed to create quote",
+        "sendFailed": "Failed to send quote"
+      },
+      "messages": {
+        "sent": "Quote sent to client.",
+        "sentLink": "Quote sent. Magic link: {link}",
+        "saved": "Quote saved as draft."
+      }
+    },
+    "defaults": {
+      "projectTitle": "Custom project for {name}"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "At Ghazal Tech, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or use our services.",
+      "sections": [
+        {
+          "title": "Information We Collect",
+          "body": "We may collect personal information such as:\n- Name, email address, phone number, or other contact details\n- Information submitted through our contact forms\n- Technical data (IP address, browser type, usage statistics)"
+        },
+        {
+          "title": "How We Use Your Information",
+          "body": "We use the collected information to:\n- Respond to inquiries\n- Improve our services and website experience\n- Communicate with clients or potential clients"
+        },
+        {
+          "title": "Cookies",
+          "body": "We may use cookies to enhance your browsing experience. You can disable cookies in your browser settings at any time."
+        },
+        {
+          "title": "Third-Party Services",
+          "body": "Our website may include links to third-party websites. We are not responsible for the privacy practices of those websites."
+        },
+        {
+          "title": "Data Security",
+          "body": "We take reasonable steps to protect your personal information from unauthorized access or disclosure."
+        },
+        {
+          "title": "Your Rights",
+          "body": "You may request to:\n- Access or update your personal data\n- Request deletion of your data from our records"
+        },
+        {
+          "title": "Contact Us",
+          "body": "If you have any questions about this Privacy Policy, please contact us at:"
+        }
+      ],
+      "contactTitle": "Contact Us",
+      "contactEmail": "Email: hello@example.com",
+      "contactAddress": "Location: Remote",
+      "lastUpdated": "Last updated: July 2025"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "subtitle": "These Terms of Use govern your use of our website located at example.com and any related services provided by Ghazal Tech.",
+      "sections": [
+        {
+          "title": "Acceptance of Terms",
+          "body": "By accessing and using our website, you accept and agree to be bound by the terms and provisions of this agreement."
+        },
+        {
+          "title": "Use of the Website",
+          "body": "You agree to use the website only for lawful purposes and in a way that does not infringe the rights of, restrict or inhibit anyone else's use of the website."
+        },
+        {
+          "title": "Intellectual Property",
+          "body": "All content on this site is the property of Ghazal Tech unless otherwise stated. You may not reproduce or redistribute any part of this site without our express written permission."
+        },
+        {
+          "title": "Limitation of Liability",
+          "body": "Ghazal Tech is not liable for any damages or losses resulting from your use of the website."
+        },
+        {
+          "title": "External Links",
+          "body": "Our website may include links to third-party websites. We are not responsible for the content or practices of those websites."
+        },
+        {
+          "title": "Modifications",
+          "body": "We reserve the right to update or change these terms at any time. Continued use of the website means you accept those changes."
+        },
+        {
+          "title": "Contact Us",
+          "body": "If you have any questions about these Terms, please contact us at:"
+        }
+      ],
+      "contactTitle": "Contact Us",
+      "contactEmail": "Email: hello@example.com",
+      "contactAddress": "Location: Remote",
+      "lastUpdated": "Last updated: July 2025"
+    }
+  },
+  "servicesPage": {
+    "title": "Our services",
+    "subtitle": "Product strategy, UI/UX, engineering, and delivery - tailored to your business goals.",
+    "blocks": [
+      {
+        "title": "Product & design",
+        "desc": "Research-driven UX, brand-consistent UI, and conversion-focused flows for web and mobile.",
+        "items": [
+          "User journeys & wireframes",
+          "High-fidelity design systems",
+          "Content and localization planning"
+        ]
+      },
+      {
+        "title": "Engineering",
+        "desc": "Full-stack builds with dashboards, portals, and integrations that ship reliably.",
+        "items": [
+          "APIs, auth, and billing",
+          "Admin portals & dashboards",
+          "Performance, QA, and security"
+        ]
+      },
+      {
+        "title": "Delivery & support",
+        "desc": "Go-live readiness, handover, and ongoing enhancements to keep you shipping.",
+        "items": [
+          "Launch checklists & training",
+          "Analytics & A/B iterations",
+          "Maintenance, SLAs, and support"
+        ]
+      }
+    ]
+  },
+  "servicesCatalog": {
+    "kicker": "Services",
+    "title": "Web systems built for real businesses",
+    "subtitle": "Ghazal Tech builds scalable web systems, not just websites. We focus on structure, operations, and growth.",
+    "primaryCta": "Request a project",
+    "secondaryCta": "Explore services",
+    "heroNoteLabel": "What we specialize in",
+    "heroNote": "Web systems for operations, dashboards, workflows, and growth-ready websites.",
+    "featuredLabel": "Main service",
+    "viewDetails": "View details",
+    "guidanceTitle": "How to choose?",
+    "guidanceSubtitle": "A quick guide to the right service",
+    "guidance": {
+      "items": [
+        {
+          "question": "Need to manage operations or data?",
+          "answer": "Business Management Systems (BMS)",
+          "slug": "business-management-systems"
+        },
+        {
+          "question": "Have a unique idea?",
+          "answer": "Custom Web Solutions",
+          "slug": "custom-web-solutions"
+        },
+        {
+          "question": "Need an online presence?",
+          "answer": "Business Websites",
+          "slug": "business-websites"
+        },
+        {
+          "question": "Want to sell online?",
+          "answer": "E-commerce Websites",
+          "slug": "ecommerce-websites"
+        },
+        {
+          "question": "Need automation?",
+          "answer": "Web Automation & Integrations",
+          "slug": "web-automation"
+        }
+      ]
+    },
+    "supportHighlight": {
+      "title": "Technical Support is available for every project",
+      "body": "Add a yearly support plan to keep security, backups, and stability after launch.",
+      "cta": "Explore Technical Support"
+    },
+    "supportCard": {
+      "title": "Technical Support & Annual Maintenance",
+      "summary": "Annual care plans to keep your web system secure, backed up, and stable.",
+      "tag": "Support"
+    },
+    "finalCta": {
+      "title": "Tell us about your project",
+      "body": "We review the scope and recommend the best service before any build.",
+      "cta": "Request a custom project"
+    },
+    "problemTitle": "Common challenges",
+    "solutionTitle": "Our solution",
+    "includedTitle": "What's included",
+    "processTitle": "How we work",
+    "process": [
+      {
+        "title": "Analysis",
+        "desc": "We understand goals, operations, and constraints."
+      },
+      {
+        "title": "Design",
+        "desc": "We define structure and a clear user flow."
+      },
+      {
+        "title": "Build",
+        "desc": "We deliver in phases with reviews."
+      },
+      {
+        "title": "Test",
+        "desc": "We validate quality and security."
+      },
+      {
+        "title": "Deliver",
+        "desc": "Launch with documentation and initial support."
+      }
+    ],
+    "buttons": {
+      "requestService": "Request this service",
+      "contact": "Contact us"
+    },
+    "items": {
+      "business-management-systems": {
+        "title": "Custom Business Management Systems (BMS)",
+        "tag": "BMS",
+        "summary": "Dashboards, roles, workflows, and reports built around your operations.",
+        "heroTitle": "A business system that runs your operations with clarity",
+        "heroBody": "We design a custom BMS that connects teams and processes in one system: roles, approvals, live reporting, and scalable workflows.",
+        "problems": [
+          "Data scattered across tools with no single source of truth",
+          "Slow approvals and unclear handoffs between teams",
+          "Reports that arrive late or don't reflect reality"
+        ],
+        "solutionBody": "We model your real operations into a structured web system with role-based access, approvals, and live metrics to help you scale.",
+        "included": [
+          "Role-based dashboards and permissions",
+          "Custom workflows and approvals",
+          "Operational reports and KPIs",
+          "Activity tracking and audit logs",
+          "Scalable architecture for future growth"
+        ],
+        "ctaTitle": "Need a system that manages your business?",
+        "ctaBody": "Share your process and we'll design a BMS that fits your operations."
+      },
+      "custom-web-solutions": {
+        "title": "Custom Web Solutions",
+        "tag": "Custom",
+        "summary": "Turn your idea into a web system, from MVP to full platform.",
+        "heroTitle": "From idea to a real web system",
+        "heroBody": "We build flexible web solutions for unique ideas, platforms, portals, and SaaS-style systems that evolve over time.",
+        "problems": [
+          "A clear idea without a technical roadmap",
+          "Off-the-shelf tools that don't fit your workflow",
+          "Difficulty scaling or adding features later"
+        ],
+        "solutionBody": "We plan the structure first, then build in phases so your system stays clean, scalable, and ready to evolve.",
+        "included": [
+          "Discovery and product planning",
+          "MVP build with clear milestones",
+          "Admin panel and flexible settings",
+          "Scalable architecture for future features"
+        ],
+        "ctaTitle": "Ready to turn your idea into a system?",
+        "ctaBody": "We'll help you plan and build a web solution that grows with your product."
+      },
+      "business-websites": {
+        "title": "Business Websites",
+        "tag": "Credibility",
+        "summary": "Professional websites that build trust and convert visitors.",
+        "heroTitle": "A business website that builds trust",
+        "heroBody": "We craft clear, fast business websites that present your services, support multiple languages, and guide users to action.",
+        "problems": [
+          "An outdated site that doesn't represent the business",
+          "Low conversions and unclear messaging",
+          "No structure for multilingual content"
+        ],
+        "solutionBody": "We build a clean structure, strong messaging, and conversion-focused sections to help visitors take action.",
+        "included": [
+          "Service and company pages",
+          "SEO-ready structure",
+          "Multi-language support",
+          "Contact and lead forms"
+        ],
+        "ctaTitle": "Need a website that reflects your business?",
+        "ctaBody": "We'll build a professional site that drives trust and inquiries."
+      },
+      "ecommerce-websites": {
+        "title": "E-commerce Websites",
+        "tag": "Commerce",
+        "summary": "Product management, orders, and admin control built for selling online.",
+        "heroTitle": "An e-commerce site built to run smoothly",
+        "heroBody": "We build web stores that manage products, orders, and optional payments with clear admin control.",
+        "problems": [
+          "Scattered product data and order tracking",
+          "Manual steps that slow fulfillment",
+          "Limited control over catalog and pricing"
+        ],
+        "solutionBody": "We deliver a structured store with product management, order flows, and the admin tools you need.",
+        "included": [
+          "Product, category, and inventory management",
+          "Clear checkout and order flow",
+          "Admin dashboard for orders",
+          "Optional payment integrations",
+          "Sales and order reporting"
+        ],
+        "ctaTitle": "Want to sell online with control?",
+        "ctaBody": "We'll build a store that keeps products and orders organized."
+      },
+      "personal-websites": {
+        "title": "Personal & Portfolio Websites",
+        "tag": "Personal brand",
+        "summary": "Professional presence for individuals with clear portfolio showcasing.",
+        "heroTitle": "A portfolio that presents you professionally",
+        "heroBody": "We create clean personal sites that highlight your skills, work, and credibility.",
+        "problems": [
+          "No official page to present your work",
+          "Projects scattered across platforms",
+          "Weak first impression"
+        ],
+        "solutionBody": "We organize your work and story into a clear, fast web presence.",
+        "included": [
+          "Structured personal profile",
+          "Projects or portfolio sections",
+          "Clear contact links",
+          "Fast, lightweight design"
+        ],
+        "ctaTitle": "Need a professional personal site?",
+        "ctaBody": "We'll build a portfolio that represents your expertise clearly."
+      },
+      "web-automation": {
+        "title": "Web Automation & Integrations",
+        "tag": "Automation",
+        "summary": "APIs and automations that reduce manual work.",
+        "heroTitle": "Automation that saves time and reduces errors",
+        "heroBody": "We connect tools via APIs and build automation that keeps data moving between systems.",
+        "problems": [
+          "Manual tasks that waste time",
+          "Repeated data entry and human error",
+          "Disconnected tools"
+        ],
+        "solutionBody": "We design integrations and automation rules that sync data and trigger actions automatically.",
+        "included": [
+          "API integrations and webhooks",
+          "Automation rules and alerts",
+          "Data sync between systems",
+          "Operational logs and visibility"
+        ],
+        "ctaTitle": "Need to reduce manual work?",
+        "ctaBody": "Let's automate the steps that slow your team down."
+      },
+      "technical-audit": {
+        "title": "Technical Audit & Review",
+        "tag": "Audit",
+        "summary": "A clear technical report covering performance, security, and priorities.",
+        "heroTitle": "A technical audit that clarifies priorities",
+        "heroBody": "We assess your web system or website and deliver a report with risks, improvements, and next steps.",
+        "problems": [
+          "Repeated issues with no clear root cause",
+          "Performance slowdowns or errors",
+          "No technical direction for decisions"
+        ],
+        "solutionBody": "We review architecture, performance, and security to produce a prioritized, actionable plan.",
+        "included": [
+          "Performance and structure assessment",
+          "Security review and risk notes",
+          "Prioritized recommendations",
+          "Review session to explain findings"
+        ],
+        "ctaTitle": "Need a clear technical report?",
+        "ctaBody": "We'll audit your system and provide actionable recommendations."
+      }
+    }
+  },
+  "referralsPage": {
+    "kicker": "Referral program",
+    "title": "Earn commission when you refer clients",
+    "subtitle": "Share your personal link, track referrals, and withdraw commissions as payments are completed.",
+    "highlightTitle": "Simple, transparent tracking",
+    "highlightBody": "Every referral, quote, and payment is visible in your dashboard.",
+    "highlights": [
+      "Each referral has its own status",
+      "Commission updates after every payment",
+      "Withdrawable balance grows with payments"
+    ],
+    "steps": [
+      {
+        "title": "Share your referral link",
+        "desc": "Send your link to a client, partner, or friend."
+      },
+      {
+        "title": "Referral signs up",
+        "desc": "When they create an account, the referral appears as successful."
+      },
+      {
+        "title": "Quote approved",
+        "desc": "Once a quote is accepted, a commission is assigned to the referral."
+      },
+      {
+        "title": "Payments unlock payouts",
+        "desc": "Each payment unlocks a percentage you can withdraw."
+      }
+    ],
+    "example": {
+      "title": "Example calculation",
+      "lines": [
+        "Quote accepted: $2,000",
+        "Commission rate: 10% = $200",
+        "First payment: $500 -> $50 available",
+        "Remaining $150 unlocks as payments continue"
+      ]
+    },
+    "cta": {
+      "title": "Ready to start sharing?",
+      "body": "Create an account to get your personal referral link.",
+      "button": "Create account"
+    },
+    "previews": [
+      {
+        "headerLabel": "Referral link",
+        "headerValue": "ghazal.tech/r/ghazal-01",
+        "stats": [
+          {
+            "label": "Clicks",
+            "value": "84"
+          },
+          {
+            "label": "Signups",
+            "value": "12"
+          },
+          {
+            "label": "Conversion",
+            "value": "14%"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Top channel",
+            "value": "WhatsApp"
+          },
+          {
+            "label": "Last click",
+            "value": "2h ago"
+          },
+          {
+            "label": "Next follow-up",
+            "value": "Tomorrow"
+          }
+        ],
+        "footer": {
+          "label": "Status",
+          "value": "Active"
+        }
+      },
+      {
+        "headerLabel": "New account",
+        "headerValue": "Maya K.",
+        "stats": [
+          {
+            "label": "Joined",
+            "value": "Today"
+          },
+          {
+            "label": "Country",
+            "value": "TR"
+          },
+          {
+            "label": "Source",
+            "value": "Referral"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Email verified",
+            "value": "Yes"
+          },
+          {
+            "label": "Account status",
+            "value": "Active"
+          },
+          {
+            "label": "Request type",
+            "value": "Template site"
+          }
+        ],
+        "footer": {
+          "label": "Referral",
+          "value": "Successful"
+        }
+      },
+      {
+        "headerLabel": "Quote",
+        "headerValue": "$2,000",
+        "stats": [
+          {
+            "label": "Commission",
+            "value": "$200"
+          },
+          {
+            "label": "Phases",
+            "value": "4"
+          },
+          {
+            "label": "Deposit",
+            "value": "$500"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Approved",
+            "value": "Yes"
+          },
+          {
+            "label": "Project",
+            "value": "Brand site"
+          },
+          {
+            "label": "Start",
+            "value": "Mon"
+          }
+        ],
+        "footer": {
+          "label": "Commission",
+          "value": "$200"
+        }
+      },
+      {
+        "headerLabel": "Payments",
+        "headerValue": "1/4 paid",
+        "stats": [
+          {
+            "label": "Paid",
+            "value": "$500"
+          },
+          {
+            "label": "Available",
+            "value": "$50"
+          },
+          {
+            "label": "Pending",
+            "value": "$150"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Payment 1",
+            "value": "Received"
+          },
+          {
+            "label": "Payment 2",
+            "value": "Due Jan 12"
+          },
+          {
+            "label": "Payment 3",
+            "value": "Pending"
+          }
+        ],
+        "footer": {
+          "label": "Next payout",
+          "value": "$50 available"
+        }
+      }
+    ]
+  },
+  "workflowPage": {
+    "kicker": "Platform flow",
+    "title": "How Ghazal Tech works",
+    "subtitle": "Two ways to start, one clear delivery path.",
+    "highlightTitle": "Everything stays transparent",
+    "highlightBody": "Quotes, phases, payments, and approvals are tracked in one dashboard.",
+    "highlights": [
+      "Manual payment proof review",
+      "Phase-by-phase delivery",
+      "Client + admin communication"
+    ],
+    "pathsTitle": "Choose how you start",
+    "paths": {
+      "guest": {
+        "title": "Request as a guest",
+        "desc": "Submit a request without an account and receive a proposal.",
+        "steps": [
+          "Fill the request form",
+          "Receive a quote and timeline",
+          "Create an account when you accept"
+        ]
+      },
+      "account": {
+        "title": "Request from your account",
+        "desc": "Sign in and request a project directly from your dashboard.",
+        "steps": [
+          "Submit a request from your dashboard",
+          "Review the proposal and milestones",
+          "Track progress and payments inside your account"
+        ]
+      }
+    },
+    "stepsTitle": "What happens next",
+    "steps": [
+      {
+        "title": "Request & review",
+        "desc": "We analyze your request, budget, and timeline."
+      },
+      {
+        "title": "Quote & scope",
+        "desc": "You get a detailed proposal with phases and pricing."
+      },
+      {
+        "title": "Approval & project setup",
+        "desc": "Once you approve, we open the project and timeline."
+      },
+      {
+        "title": "Phases & payments",
+        "desc": "Each phase has milestones and clear payment checkpoints."
+      },
+      {
+        "title": "Delivery & revisions",
+        "desc": "We deliver files, collect feedback, and handle paid revisions."
+      }
+    ],
+    "platformTitle": "Inside the platform",
+    "platform": [
+      {
+        "title": "Project timeline",
+        "desc": "Track phases, due dates, and milestones in one place."
+      },
+      {
+        "title": "Payments & proofs",
+        "desc": "Upload receipts and monitor approvals with clear status."
+      },
+      {
+        "title": "Files & feedback",
+        "desc": "Share assets, comments, and change requests anytime."
+      }
+    ],
+    "previews": [
+      {
+        "headerLabel": "Request",
+        "headerValue": "Web platform",
+        "stats": [
+          {
+            "label": "Budget",
+            "value": "$3,000"
+          },
+          {
+            "label": "Timeline",
+            "value": "6 weeks"
+          },
+          {
+            "label": "Priority",
+            "value": "Normal"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Scope",
+            "value": "Dashboard + booking"
+          },
+          {
+            "label": "Reviewed",
+            "value": "In progress"
+          },
+          {
+            "label": "Owner",
+            "value": "Ghazal"
+          }
+        ],
+        "footer": {
+          "label": "Next",
+          "value": "Quote draft"
+        }
+      },
+      {
+        "headerLabel": "Quote",
+        "headerValue": "$2,800",
+        "stats": [
+          {
+            "label": "Phases",
+            "value": "4"
+          },
+          {
+            "label": "Milestones",
+            "value": "3"
+          },
+          {
+            "label": "ETA",
+            "value": "6 weeks"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Design",
+            "value": "$900"
+          },
+          {
+            "label": "Build",
+            "value": "$1,400"
+          },
+          {
+            "label": "QA",
+            "value": "$500"
+          }
+        ],
+        "footer": {
+          "label": "Status",
+          "value": "Sent"
+        }
+      },
+      {
+        "headerLabel": "Project",
+        "headerValue": "Workspace ready",
+        "stats": [
+          {
+            "label": "Kickoff",
+            "value": "Tue"
+          },
+          {
+            "label": "Team",
+            "value": "3"
+          },
+          {
+            "label": "Docs",
+            "value": "Shared"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Access",
+            "value": "Granted"
+          },
+          {
+            "label": "Timeline",
+            "value": "Created"
+          },
+          {
+            "label": "Repo",
+            "value": "Initialized"
+          }
+        ],
+        "footer": {
+          "label": "Status",
+          "value": "Active"
+        }
+      },
+      {
+        "headerLabel": "Phase 2",
+        "headerValue": "In progress",
+        "stats": [
+          {
+            "label": "Complete",
+            "value": "45%"
+          },
+          {
+            "label": "Next payment",
+            "value": "$500"
+          },
+          {
+            "label": "Due",
+            "value": "Dec 20"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Phase 1",
+            "value": "Done"
+          },
+          {
+            "label": "Phase 2",
+            "value": "Active"
+          },
+          {
+            "label": "Phase 3",
+            "value": "Planned"
+          }
+        ],
+        "footer": {
+          "label": "Milestone",
+          "value": "Awaiting proof"
+        }
+      },
+      {
+        "headerLabel": "Delivery",
+        "headerValue": "3 files",
+        "stats": [
+          {
+            "label": "Feedback",
+            "value": "2 notes"
+          },
+          {
+            "label": "Revisions",
+            "value": "1 paid"
+          },
+          {
+            "label": "Handoff",
+            "value": "Ready"
+          }
+        ],
+        "rows": [
+          {
+            "label": "Preview",
+            "value": "Shared"
+          },
+          {
+            "label": "Review",
+            "value": "Client"
+          },
+          {
+            "label": "Release",
+            "value": "Pending"
+          }
+        ],
+        "footer": {
+          "label": "Next",
+          "value": "Revision slot"
+        }
+      }
+    ]
+  },
+  "statusLabels": {
+    "PENDING": "Pending",
+    "EARNED": "Earned",
+    "PAID_OUT": "Paid out",
+    "UNDER_REVIEW": "Under review",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected",
+    "SENT": "Sent",
+    "DRAFT": "Draft",
+    "ACCEPTED": "Accepted",
+    "REVIEWED": "Reviewed",
+    "CONFIRMED": "Confirmed",
+    "CONVERTED_TO_ORDER": "Converted to order",
+    "IN_PROGRESS": "In progress",
+    "COMPLETED": "Completed",
+    "BLOCKED": "Blocked",
+    "DELIVERED": "Delivered",
+    "CANCELLED": "Cancelled",
+    "UNPAID": "Unpaid",
+    "PARTIAL": "Partial",
+    "PAID": "Paid",
+    "REQUIREMENTS": "Requirements",
+    "DESIGN": "Design",
+    "DEV": "Development",
+    "QA": "Quality assurance"
+  },
+  "visuals": {
+    "servicesSummary": [
+      {
+        "title": "Web systems",
+        "tag": "Dashboards + workflows"
+      },
+      {
+        "title": "Websites",
+        "tag": "Marketing + content"
+      },
+      {
+        "title": "Bookings",
+        "tag": "Scheduling + portals"
+      },
+      {
+        "title": "Automation",
+        "tag": "Integrations + alerts"
+      }
+    ],
+    "techCorePanels": [
+      "Payments",
+      "Dashboards",
+      "Milestones",
+      "Referrals",
+      "Revisions",
+      "Security"
+    ]
+  },
+  "supportPage": {
+    "hero": {
+      "kicker": "Support",
+      "title": "Support that keeps your site secure and fast all year",
+      "subtitle": "After delivery, we don't disappear. We include one free support month within clear limits, then annual care plans tailored to your needs: security, backups, updates, and improvements - no surprises.",
+      "ctaPrimary": "Explore care plans",
+      "ctaSecondary": "Contact us",
+      "ctaHint": "Response within 24 business hours",
+      "pulseLabel": "Monitoring",
+      "monitorLabel": "Support overview",
+      "monitorBody": "We keep an eye on uptime, performance, and critical updates.",
+      "metrics": [
+        "Uptime watch",
+        "Backup checks",
+        "Security updates"
+      ]
+    },
+    "freeSupport": {
+      "title": "\ud83c\udf81 One free support month after delivery for projects we built",
+      "bullets": [
+        "Fix implementation bugs",
+        "Basic technical support & operations",
+        "Small edits: text / images / links"
+      ],
+      "limitNote": "Clear free limits: no new features, major redesigns, or full page restructures.",
+      "button": "View limits",
+      "modalTitle": "Free support limits",
+      "modalIntro": "Small edits include: copy changes, image swaps, link updates, minor section order changes, and light spacing/color tweaks.",
+      "modalExcluded": "Not included: full redesigns, new pages with new logic, payment/booking integrations, major database or permissions changes.",
+      "closeLabel": "Close"
+    },
+    "lifecycle": {
+      "title": "Support lifecycle",
+      "subtitle": "A clear path after delivery with visible checkpoints.",
+      "active": "Active",
+      "next": "Next",
+      "steps": [
+        {
+          "title": "Delivery",
+          "desc": "Organized handoff, files, quick walkthrough, and baseline docs."
+        },
+        {
+          "title": "Monitoring & operations",
+          "desc": "Site monitoring with short health updates."
+        },
+        {
+          "title": "Updates & security",
+          "desc": "Critical updates to reduce risk and close vulnerabilities."
+        },
+        {
+          "title": "Backups & recovery",
+          "desc": "Regular backups with a clear recovery plan when needed."
+        },
+        {
+          "title": "Performance improvements",
+          "desc": "Light optimizations that improve speed and stability over time."
+        },
+        {
+          "title": "Planned development",
+          "desc": "Annual development credits for Growth plan clients."
+        }
+      ]
+    },
+    "plans": {
+      "title": "Care plans",
+      "toggleAnnual": "Annual care",
+      "toggleAudit": "Audit only",
+      "badge": "Most popular",
+      "cta": "Request this plan",
+      "limitLabel": "Limit",
+      "fitLabel": "Best for",
+      "note": "Large features are priced as separate projects.",
+      "cards": [
+        {
+          "key": "CARE",
+          "name": "Care",
+          "subtitle": "Essential care (annual)",
+          "price": "$120 / year",
+          "includes": [
+            "Security updates",
+            "Backups",
+            "Monitoring",
+            "Renewals management"
+          ],
+          "limit": "Up to 12 small requests per year.",
+          "fit": "Teams that want a stable, secure site."
+        },
+        {
+          "key": "CARE_PLUS",
+          "name": "Care+",
+          "subtitle": "Comprehensive care (annual)",
+          "price": "$200 / year",
+          "includes": [
+            "Everything in Care",
+            "Light UX & performance improvements",
+            "Priority support",
+            "Routine checkups"
+          ],
+          "limit": "Up to 24 requests per year.",
+          "fit": "Businesses that want regular upkeep and light improvements.",
+          "popular": true
+        },
+        {
+          "key": "GROWTH",
+          "name": "Growth",
+          "subtitle": "Annual development (credits)",
+          "price": "$450 / year",
+          "includes": [
+            "Annual development credits",
+            "Priority queue",
+            "Small/medium features",
+            "Performance & UX tuning"
+          ],
+          "limit": "Up to 45 requests per year.",
+          "fit": "Teams that need continuous development."
+        },
+        {
+          "key": "AUDIT",
+          "name": "Audit",
+          "subtitle": "Annual audit",
+          "price": "$75 / year",
+          "includes": [
+            "Security, performance & SEO review",
+            "Recommendations report",
+            "Benchmark snapshot",
+            "One review session"
+          ],
+          "limit": "One audit report per year.",
+          "fit": "One-time health check before committing to a plan."
+        }
+      ]
+    },
+    "included": {
+      "title": "What's included / not included",
+      "includedLabel": "Included",
+      "excludedLabel": "Not included",
+      "exampleLabel": "Example",
+      "items": [
+        {
+          "title": "Fixes & operational support",
+          "example": "Example: resolve a broken form or email notice."
+        },
+        {
+          "title": "Essential security updates",
+          "example": "Example: patch a vulnerable dependency."
+        },
+        {
+          "title": "Backups & recovery",
+          "example": "Example: restore the latest stable backup."
+        },
+        {
+          "title": "Light performance improvements",
+          "example": "Example: optimize images or caching rules."
+        },
+        {
+          "title": "Small edits within plan limits",
+          "example": "Example: update hero copy or swap a banner."
+        }
+      ],
+      "excluded": [
+        {
+          "title": "Full UI redesigns",
+          "example": "Example: new branding and layouts across pages."
+        },
+        {
+          "title": "Large features (booking/payment/roles)",
+          "example": "Example: add booking with payments and permissions."
+        },
+        {
+          "title": "Major database changes without scope",
+          "example": "Example: restructure tables or permissions model."
+        },
+        {
+          "title": "Undefined requests beyond plan credits",
+          "example": "Example: open-ended tasks without clear limits."
+        }
+      ]
+    },
+    "sla": {
+      "title": "Response & reporting",
+      "tooltipLabel": "Details",
+      "items": [
+        {
+          "label": "Response time",
+          "value": 24,
+          "suffix": "h",
+          "tooltip": "Business hours only."
+        },
+        {
+          "label": "Critical priority",
+          "value": 1,
+          "suffix": "P",
+          "tooltip": "Critical issues get priority handling based on impact."
+        },
+        {
+          "label": "Reports",
+          "value": 1,
+          "suffix": "x",
+          "tooltip": "Depending on plan: monthly, quarterly, or annual."
+        }
+      ]
+    },
+    "requestForm": {
+      "title": "Request {plan}",
+      "subtitle": "Share the project that needs support.",
+      "projectName": "Project name",
+      "siteUrl": "Site URL",
+      "projectType": "Project type",
+      "projectTypeOptions": [
+        {
+          "value": "website",
+          "label": "Website"
+        },
+        {
+          "value": "system",
+          "label": "System"
+        },
+        {
+          "value": "store",
+          "label": "Store"
+        }
+      ],
+      "builtByUs": "Built by Ghazal Tech?",
+      "builtByUsOptions": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        }
+      ],
+      "notes": "Notes",
+      "submit": "Send request",
+      "cancel": "Close",
+      "success": "Request sent. We'll reach out soon.",
+      "error": "Unable to send request. Please try again.",
+      "loginRequired": "Please sign in to send a request."
+    },
+    "finalCta": {
+      "title": "Keep your site comfortable - and stay comfortable too",
+      "body": "Choose an annual care plan or request a one-time audit, and we'll set everything up with clear scope.",
+      "primary": "Get a care plan",
+      "secondary": "Request an audit"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "kicker": "About Ghazal Tech",
+      "title": "We don't just build websites...",
+      "highlight": "We build systems that live and grow with your business",
+      "subtitle": "Ghazal Tech is a technical partner specializing in modern websites and web systems, with a strong focus on quality, scalability, and long-term support.",
+      "ctaPrimary": "How we work",
+      "ctaSecondary": "See our work",
+      "cardTitle": "Built for long-term partnership",
+      "cardBody": "We design journeys that keep your platform stable, supported, and ready to scale.",
+      "highlights": [
+        "Quality first, every delivery",
+        "Scalable architecture",
+        "Support baked into the product"
+      ]
+    },
+    "who": {
+      "title": "Who we are",
+      "body": "We are a technical team with a product mindset, not a fast-delivery mindset.",
+      "body2": "We believe a successful website or system isn't just a beautiful interface, but a solid foundation, thoughtful UX, and a platform you can support and improve for years. We serve companies and individuals looking for real solutions, not temporary fixes.",
+      "valuesTitle": "Core values",
+      "values": [
+        {
+          "title": "Product mindset",
+          "desc": "We build for growth, not just launch."
+        },
+        {
+          "title": "Clarity before execution",
+          "desc": "Scope, phases, and goals are defined upfront."
+        },
+        {
+          "title": "Support is continuous",
+          "desc": "Delivery is only the start."
+        }
+      ]
+    },
+    "journey": {
+      "title": "Our journey",
+      "subtitle": "An interactive timeline of how Ghazal Tech evolved.",
+      "steps": [
+        {
+          "title": "The beginning",
+          "desc": "We started with a passion for building web experiences, focused on detail and quality."
+        },
+        {
+          "title": "Building the method",
+          "desc": "Over time, we shaped a clear way of working: analyze, design, build, support."
+        },
+        {
+          "title": "Specialization",
+          "desc": "We focused on modern web solutions, admin systems, and smart dashboards."
+        },
+        {
+          "title": "Today",
+          "desc": "We deliver end-to-end services: from idea to continuous technical support."
+        },
+        {
+          "title": "The future",
+          "desc": "A complete tech platform and SaaS services that support clients long term."
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "How we think",
+      "cards": [
+        {
+          "title": "We think in systems, not pages",
+          "desc": "Every project is a system that should scale.",
+          "detail": "We map data, roles, and flows early to avoid rework later."
+        },
+        {
+          "title": "Clarity before delivery",
+          "desc": "Scope and milestones come first.",
+          "detail": "You always know what's included and when it ships."
+        },
+        {
+          "title": "Support is part of the product",
+          "desc": "Delivery is not the finish line.",
+          "detail": "Care plans keep the system healthy after launch."
+        }
+      ]
+    },
+    "compare": {
+      "title": "Why Ghazal Tech?",
+      "subtitle": "A clear comparison of expectations.",
+      "leftTitle": "Traditional approach",
+      "rightTitle": "Ghazal Tech",
+      "leftItems": [
+        "Rush delivery",
+        "Unclear support",
+        "Undefined changes",
+        "Random communication"
+      ],
+      "rightItems": [
+        "Clear methodology",
+        "Structured support",
+        "Defined scope",
+        "Dashboard tracking"
+      ],
+      "handleLabel": "Drag to compare"
+    },
+    "numbers": {
+      "title": "Numbers that matter",
+      "subtitle": "Small team, focused results.",
+      "items": [
+        {
+          "label": "Projects delivered",
+          "value": 7,
+          "suffix": "+"
+        },
+        {
+          "label": "Active clients",
+          "value": 16,
+          "suffix": "+"
+        },
+        {
+          "label": "Client satisfaction",
+          "value": 100,
+          "suffix": "%"
+        },
+        {
+          "label": "Years of experience",
+          "value": 3,
+          "suffix": ""
+        }
+      ]
+    },
+    "process": {
+      "title": "How we work (short)",
+      "steps": [
+        "Understand the need",
+        "Propose the solution",
+        "Design",
+        "Build",
+        "Deliver",
+        "Support"
+      ],
+      "cta": "See the full workflow"
+    },
+    "finalCta": {
+      "title": "If you're looking for a technical partner, not just a vendor",
+      "body": "We are here to help you build a stable, scalable project with professional support.",
+      "primary": "Contact us",
+      "secondary": "Request your project"
+    }
+  },
+  "faqPage": {
+    "hero": {
+      "title": "FAQs... with clear answers",
+      "subtitle": "We collected the most common questions about services, support, pricing, and workflow so you can decide with confidence.",
+      "searchLabel": "Search your question",
+      "searchPlaceholder": "Search a question",
+      "placeholders": [
+        "How long does a website take?",
+        "Do you offer support after delivery?",
+        "Are prices fixed?"
+      ]
+    },
+    "categories": [
+      {
+        "id": "general",
+        "label": "General"
+      },
+      {
+        "id": "projects",
+        "label": "Projects & websites"
+      },
+      {
+        "id": "support",
+        "label": "Support"
+      },
+      {
+        "id": "pricing",
+        "label": "Pricing & payments"
+      },
+      {
+        "id": "revisions",
+        "label": "Edits & development"
+      },
+      {
+        "id": "dashboard",
+        "label": "Dashboard & tracking"
+      }
+    ],
+    "typing": "Typing response",
+    "empty": {
+      "title": "No questions found",
+      "body": "Try a different category or clear your search.",
+      "reset": "Clear search"
+    },
+    "cta": {
+      "title": "Didn't find your question?",
+      "body": "Contact us and we will reply within 24 business hours.",
+      "button": "Contact us"
+    },
+    "finalCta": {
+      "title": "Ready to start with confidence?",
+      "body": "If everything is clear now, you can move forward with a service or a support plan.",
+      "primary": "Request a service",
+      "secondary": "Support plans"
+    },
+    "questions": {
+      "general": [
+        {
+          "q": "Is Ghazal Tech a company or a freelance team?",
+          "a": "Ghazal Tech is a technical partner with a professional methodology, delivering web systems with structured support - not just fast project execution.",
+          "highlights": [
+            "professional methodology",
+            "web systems",
+            "structured support"
+          ]
+        },
+        {
+          "q": "Can I request just one service?",
+          "a": "Yes. You can request a single service such as a website build, a technical audit, or ongoing support without bundling other services.",
+          "highlights": [
+            "single service",
+            "technical audit",
+            "ongoing support"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "q": "How long does a website take?",
+          "a": "It depends on scope, but most projects finish in 2 to 6 weeks after requirements are defined clearly.",
+          "highlights": [
+            "2 to 6 weeks",
+            "requirements"
+          ]
+        },
+        {
+          "q": "Can I make changes during delivery?",
+          "a": "Yes, within the agreed scope. Anything outside the scope is reviewed and quoted separately.",
+          "highlights": [
+            "agreed scope",
+            "quoted separately"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "q": "Do you provide support after delivery?",
+          "a": "Yes. We include one free support month after delivery, within clear limits that cover bug fixes and light edits.",
+          "highlights": [
+            "free support month",
+            "bug fixes",
+            "light edits"
+          ]
+        },
+        {
+          "q": "What happens after the free month?",
+          "a": "You can choose an annual care plan (Care / Care+ / Growth) or continue without a plan.",
+          "highlights": [
+            "annual care plan",
+            "Care"
+          ]
+        },
+        {
+          "q": "Is support monthly or yearly?",
+          "a": "Support is offered as annual plans to reduce monthly overhead and keep your system stable.",
+          "highlights": [
+            "annual plans",
+            "system stable"
+          ]
+        }
+      ],
+      "pricing": [
+        {
+          "q": "Are prices fixed?",
+          "a": "Listed prices are clear reference points, but every request is reviewed before activation to confirm scope.",
+          "highlights": [
+            "reference points",
+            "reviewed before activation"
+          ]
+        },
+        {
+          "q": "Do I pay directly on the website?",
+          "a": "No. You submit the plan request first, then we confirm details with you before activation.",
+          "highlights": [
+            "plan request",
+            "confirm details"
+          ]
+        }
+      ],
+      "revisions": [
+        {
+          "q": "What counts as a small edit?",
+          "a": "Small edits include text changes, replacing images, rearranging sections, or light UI tweaks without logic changes.",
+          "highlights": [
+            "text changes",
+            "light UI tweaks"
+          ]
+        },
+        {
+          "q": "Can I request a big feature under support?",
+          "a": "Large features (like booking or payments) are priced as a separate project even if you have a support plan.",
+          "highlights": [
+            "separate project",
+            "support plan"
+          ]
+        }
+      ],
+      "dashboard": [
+        {
+          "q": "Can I track what is happening on my site?",
+          "a": "Yes. Once a plan is active, you get a dashboard to follow subscription status and the work log.",
+          "highlights": [
+            "dashboard",
+            "work log"
+          ]
+        },
+        {
+          "q": "Can I send change requests from the dashboard?",
+          "a": "Yes. You can submit requests and comments directly from the dashboard within plan limits.",
+          "highlights": [
+            "requests and comments",
+            "plan limits"
+          ]
+        }
+      ]
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "title": "Technical articles... with real-world experience",
+      "subtitle": "We share our experience building modern web systems, from planning to long-term support."
+    },
+    "featuredLabel": "Featured article",
+    "featuredCta": "Read article",
+    "filters": {
+      "all": "All",
+      "searchPlaceholder": "Search articles"
+    },
+    "categories": [
+      {
+        "id": "web-dev",
+        "label": "Web Development"
+      },
+      {
+        "id": "ux-ui",
+        "label": "UX/UI"
+      },
+      {
+        "id": "support",
+        "label": "Support & Maintenance"
+      },
+      {
+        "id": "business",
+        "label": "Business & SaaS"
+      }
+    ],
+    "cta": {
+      "title": "Looking for real execution?",
+      "body": "Articles give you knowledge - we apply it for you.",
+      "primary": "Request your project",
+      "secondary": "Support plans"
+    },
+    "empty": {
+      "title": "No articles found",
+      "body": "Try a different search or category."
+    },
+    "readingLabel": "{minutes} min read"
+  },
+  "blogPost": {
+    "back": "Back to blog",
+    "readingLabel": "{minutes} min read",
+    "tocTitle": "Contents",
+    "tocEmpty": "No sections yet.",
+    "relatedTitle": "Related articles",
+    "relatedEmpty": "No related articles yet.",
+    "cta": {
+      "title": "Want to apply this in practice?",
+      "body": "We help you build a solution that fits your project.",
+      "primary": "Request a service",
+      "secondary": "Support plans"
+    }
+  },
+  "blogAdmin": {
+    "label": "Blog",
+    "title": "Blog posts",
+    "create": "New post",
+    "edit": "Edit",
+    "close": "Close",
+    "save": "Save",
+    "saving": "Saving...",
+    "empty": "No posts yet.",
+    "emptyValue": "-",
+    "featured": "Featured",
+    "formTitlePlaceholder": "Untitled post",
+    "filters": {
+      "all": "All",
+      "draft": "Draft",
+      "published": "Published",
+      "searchPlaceholder": "Search by title or tag"
+    },
+    "table": {
+      "title": "Title",
+      "status": "Status",
+      "locale": "Locale",
+      "category": "Category",
+      "date": "Published",
+      "actions": "Actions"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "excerpt": "Excerpt",
+      "content": "Content (Markdown)",
+      "coverImage": "Cover image URL",
+      "category": "Category",
+      "tags": "Tags (comma separated)",
+      "status": "Status",
+      "locale": "Locale",
+      "author": "Author name",
+      "seoTitle": "SEO title",
+      "seoDescription": "SEO description",
+      "readingTime": "Reading time (minutes)",
+      "publishedAt": "Publish date",
+      "featured": "Featured article"
+    },
+    "hints": {
+      "slugHint": "Auto-generated if empty.",
+      "tagsHint": "Example: web, ux, saas",
+      "contentHint": "Use Markdown: headings, lists, code.",
+      "readingTimeHint": "Leave empty to auto-calculate."
+    },
+    "preview": {
+      "title": "Preview",
+      "wordCount": "Words",
+      "readingTime": "Reading time",
+      "empty": "Start typing to see a preview."
+    },
+    "errors": {
+      "load": "Failed to load posts.",
+      "save": "Failed to save post."
+    },
+    "categories": [
+      {
+        "id": "web-dev",
+        "label": "Web Development"
+      },
+      {
+        "id": "ux-ui",
+        "label": "UX/UI"
+      },
+      {
+        "id": "support",
+        "label": "Support & Maintenance"
+      },
+      {
+        "id": "business",
+        "label": "Business & SaaS"
+      }
+    ]
+  },
+  "notFoundPage": {
+    "kicker": "404",
+    "title": "Page not found",
+    "body": "It looks like the link you tried to open is incorrect or has been moved.",
+    "hint": "Let's get you back on track.",
+    "primary": "Back to home",
+    "secondary": "Contact us"
+  },
+  "errorPage": {
+    "kicker": "500",
+    "title": "Something went wrong",
+    "body": "Sorry, a temporary error occurred while loading the page. Our team is working on it.",
+    "primary": "Try again",
+    "secondary": "Home"
+  },
+  "successPage": {
+    "title": "Your request was sent successfully \u2705",
+    "body": "Thanks for reaching out. We've received your request and will reply within 24 business hours.",
+    "nextTitle": "What happens next",
+    "steps": [
+      "We review the details",
+      "We may contact you for clarification"
+    ],
+    "primary": "Back to home",
+    "secondary": "Explore services",
+    "continue": "Continue to your request"
+  },
+  "supportSuccessPage": {
+    "title": "Support request received successfully \ud83d\udee0\ufe0f",
+    "body": "We received your support plan request. Ghazal Tech will review your site and contact you to confirm the details.",
+    "nextTitle": "Next steps",
+    "steps": [
+      "Review the project",
+      "Confirm plan scope",
+      "Activate the subscription"
+    ],
+    "primary": "Back to support",
+    "secondary": "Contact us",
+    "dashboard": {
+      "title": "Follow it from your dashboard",
+      "body": "Track the request status and updates in your client dashboard.",
+      "button": "Open dashboard"
+    }
+  },
+  "auth": {
+    "login": {
+      "kicker": "Account access",
+      "title": "Welcome back",
+      "subtitle": "Sign in to continue.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "********",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "errors": {
+        "invalidCredentials": "Invalid email or password."
+      }
+    },
+    "register": {
+      "kicker": "Create account",
+      "title": "Create your account",
+      "subtitle": "Fill in the details to get started.",
+      "fullNameLabel": "Full name",
+      "fullNamePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a password",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "submit": "Create account",
+      "submitting": "Creating account...",
+      "errors": {
+        "passwordMismatch": "Passwords do not match.",
+        "createFailed": "Failed to create account."
+      },
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "+1 555 123 4567"
+    }
+  },
+  "caseStudiesPage": {
+    "hero": {
+      "kicker": "Case studies",
+      "title": "Case studies built on real outcomes",
+      "subtitle": "See how we turned real problems into measurable results.",
+      "primaryCta": "View success stories",
+      "secondaryCta": "Request a project"
+    },
+    "reasons": {
+      "title": "Why we publish case studies",
+      "items": [
+        {
+          "title": "Results over words",
+          "body": "We focus on what changed after delivery."
+        },
+        {
+          "title": "Every project has context",
+          "body": "There is no one-size-fits-all solution."
+        },
+        {
+          "title": "Transparency builds trust",
+          "body": "We share the challenges before the wins."
+        }
+      ]
+    },
+    "grid": {
+      "title": "Success stories",
+      "subtitle": "Stories that prove the outcome.",
+      "progressLabel": "Story progress"
+    },
+    "card": {
+      "typeLabel": "Project type",
+      "challengeLabel": "Challenge",
+      "resultLabel": "Primary result",
+      "readCta": "Read story"
+    },
+    "midCta": {
+      "title": "Is your project similar to these cases?",
+      "body": "We can build a solution that fits your context.",
+      "cta": "Request your project"
+    },
+    "empty": {
+      "title": "No case studies yet",
+      "body": "Publish your first story from the admin dashboard."
+    }
+  },
+  "caseStudyPage": {
+    "back": "All case studies",
+    "labels": {
+      "projectType": "Project type",
+      "industry": "Industry",
+      "duration": "Timeline",
+      "technologies": "Technologies",
+      "visualFallback": "Visual snapshot"
+    },
+    "sections": {
+      "challenge": "The challenge",
+      "solution": "Our solution",
+      "implementation": "Implementation",
+      "results": "Results",
+      "testimonial": "Client feedback"
+    },
+    "cta": {
+      "title": "Want a similar outcome?",
+      "body": "Tell us about your project and we will map a clear path from problem to result.",
+      "primary": "Contact us",
+      "secondary": "Request a project"
+    }
+  },
+  "caseStudiesAdmin": {
+    "label": "Case studies",
+    "title": "Case studies",
+    "create": "New case study",
+    "edit": "Edit",
+    "close": "Close",
+    "save": "Save",
+    "saving": "Saving...",
+    "empty": "No case studies yet.",
+    "emptyValue": "-",
+    "featured": "Featured",
+    "formTitlePlaceholder": "Untitled case study",
+    "filters": {
+      "all": "All",
+      "draft": "Draft",
+      "published": "Published",
+      "searchPlaceholder": "Search by title or client"
+    },
+    "table": {
+      "title": "Title",
+      "client": "Client",
+      "type": "Type",
+      "status": "Status",
+      "locale": "Locale",
+      "date": "Published",
+      "actions": "Actions"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "clientName": "Client name",
+      "projectType": "Project type",
+      "industry": "Industry",
+      "duration": "Duration",
+      "coverImage": "Cover image URL",
+      "challengeSummary": "Challenge summary",
+      "primaryResult": "Primary result",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "implementation": "Implementation",
+      "results": "Results (one per line)",
+      "technologies": "Technologies",
+      "testimonial": "Client feedback",
+      "status": "Status",
+      "locale": "Locale",
+      "featured": "Featured",
+      "publishedAt": "Publish date"
+    },
+    "hints": {
+      "slugHint": "Auto-generated if empty.",
+      "resultsHint": "Format: Label | Value | Note (optional).",
+      "technologiesHint": "Example: Next.js, Prisma, Tailwind"
+    },
+    "preview": {
+      "title": "Preview"
+    },
+    "errors": {
+      "load": "Failed to load case studies.",
+      "save": "Failed to save case study."
+    }
+  },
+  "magicOrder": {
+    "title": {
+      "kicker": "Order access",
+      "heading": "Access your order",
+      "subheading": "We are validating your link and signing you in securely."
+    },
+    "loading": {
+      "validating": "Validating your link..."
+    },
+    "errors": {
+      "missingToken": "Missing magic link token.",
+      "invalid": "Invalid or expired link.",
+      "passwordLength": "Password must be at least 8 characters.",
+      "savePassword": "Failed to save password."
+    },
+    "status": {
+      "passwordSaved": "Password saved.",
+      "pending": "Pending"
+    },
+    "password": {
+      "title": "Set your password",
+      "body": "Create a password to access your dashboard and order updates.",
+      "placeholder": "Enter a password",
+      "save": "Save password"
+    },
+    "sections": {
+      "account": "Account"
+    },
+    "actions": {
+      "contact": "Contact us"
+    }
+  },
+  "magicQuote": {
+    "title": {
+      "kicker": "Quote approval",
+      "heading": "Review your quote",
+      "subheading": "Approve the offer, request updates, or ask us a question."
+    },
+    "loading": {
+      "validating": "Validating your link..."
+    },
+    "errors": {
+      "missingToken": "Missing magic link token.",
+      "invalid": "Invalid or expired link.",
+      "passwordLength": "Password must be at least 8 characters.",
+      "savePassword": "Failed to save password.",
+      "acceptFailed": "Failed to accept the quote.",
+      "rejectFailed": "Failed to reject the quote."
+    },
+    "status": {
+      "signedIn": "You're signed in.",
+      "passwordSaved": "Password saved. You can continue.",
+      "passwordRequired": "Please set a password to continue.",
+      "accepted": "Quote accepted.",
+      "rejected": "Quote rejected.",
+      "acceptedNeedsPassword": "Quote accepted. Please set a password to access your dashboard.",
+      "expires": "Expires {date}"
+    },
+    "password": {
+      "title": "Set your password",
+      "body": "Create a password to access your dashboard and project updates.",
+      "placeholder": "Enter a password",
+      "save": "Save password"
+    },
+    "sections": {
+      "scope": "Scope",
+      "timeline": "Timeline",
+      "delivery": "Estimated delivery",
+      "phases": "Phases",
+      "paymentSchedule": "Payment schedule",
+      "notes": "Notes"
+    },
+    "labels": {
+      "phase": "Phase {index}",
+      "milestone": "Payment {index}",
+      "amount": "Total"
+    },
+    "actions": {
+      "accept": "Accept quote",
+      "reject": "Reject",
+      "account": "Go to dashboard",
+      "contact": "Contact us"
+    }
+  },
+  "projectsPage": {
+    "hero": {
+      "kicker": "Projects",
+      "title": "Projects & case studies",
+      "subtitle": "Real systems and websites built by Ghazal Tech for real business needs."
+    },
+    "card": {
+      "typeFallback": "Web system",
+      "ratingLabel": "Rating",
+      "viewCta": "View project"
+    },
+    "empty": {
+      "title": "No published projects yet",
+      "body": "Once projects are published, they will appear here."
+    }
+  },
+  "projectPage": {
+    "back": "Back to projects",
+    "labels": {
+      "type": "Project type",
+      "category": "Category",
+      "concept": "Concept",
+      "clientGoal": "Client goal"
+    },
+    "sections": {
+      "overview": "Overview",
+      "problem": "Problem",
+      "solution": "Solution",
+      "features": "Key features",
+      "gallery": "Gallery",
+      "video": "Video",
+      "preview": "Responsive preview",
+      "review": "Client review"
+    },
+    "cta": {
+      "livePreview": "Live preview"
+    }
+  },
+  "projectsAdmin": {
+    "label": "Projects CMS",
+    "title": "Projects & publishing",
+    "create": "New project",
+    "edit": "Edit",
+    "close": "Close",
+    "save": "Save",
+    "saving": "Saving...",
+    "upload": "Upload",
+    "uploading": "Uploading...",
+    "errors": {
+      "load": "Failed to load projects.",
+      "save": "Failed to save project."
+    },
+    "filters": {
+      "searchPlaceholder": "Search by title, slug, or type",
+      "all": "All",
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "table": {
+      "title": "Project",
+      "type": "Type",
+      "status": "Status",
+      "locale": "Locale",
+      "linkedProject": "Linked project",
+      "date": "Updated",
+      "actions": "Actions",
+      "unlinked": "Not linked"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "fields": {
+      "title": "Project title",
+      "slug": "Slug",
+      "projectId": "Link to client project",
+      "projectIdEmpty": "No linked project",
+      "projectType": "Project type",
+      "category": "Category / sector",
+      "concept": "Idea / concept",
+      "clientGoal": "Client goal",
+      "shortDescription": "Short description (card)",
+      "fullDescription": "Full description",
+      "problem": "Problem statement",
+      "solution": "Solution provided",
+      "keyFeatures": "Key features",
+      "coverImage": "Cover image URL",
+      "laptopPreviewImage": "Laptop preview image",
+      "tabletPreviewImage": "Tablet preview image",
+      "mobilePreviewImage": "Mobile preview image",
+      "gallery": "Image gallery URLs",
+      "videoUrl": "Video URL",
+      "liveUrl": "Live preview URL",
+      "status": "Publishing status",
+      "publishedAt": "Publish date",
+      "locale": "Language",
+      "reviewVisibility": "Review visibility"
+    },
+    "hints": {
+      "slugHint": "Auto-generated from title; can be edited.",
+      "featuresHint": "One feature per line.",
+      "galleryHint": "One image URL per line."
+    },
+    "review": {
+      "title": "Client review",
+      "empty": "No client review yet.",
+      "rating": "Rating: {rating}/5",
+      "showToggle": "Show client review publicly",
+      "note": "Publishing does not require a review."
+    },
+    "preview": {
+      "title": "Card preview",
+      "placeholder": "Preview content"
+    },
+    "empty": "No projects found.",
+    "formTitlePlaceholder": "New project",
+    "emptyValue": "-"
+  }
+}

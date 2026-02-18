@@ -1,0 +1,1019 @@
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>غزال تك | حلول رقمية</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#020617;
+      --primary:#0ea5e9;
+      --primary-soft:#38bdf8;
+      --accent:#4ae0ff;
+      --muted:#64748b;
+      --foreground:#e5e7eb;
+      --radius:18px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:"Cairo",system-ui,sans-serif;
+      background:radial-gradient(circle at top,#1e293b 0,#020617 55%);
+      color:var(--foreground);
+      min-height:100vh;
+      -webkit-font-smoothing:antialiased;
+    }
+    a{text-decoration:none;color:inherit}
+    .page{
+      position:relative;
+      overflow:hidden;
+      min-height:100vh;
+    }
+    .neon-lines{
+      position:fixed;
+      inset:0;
+      z-index:-2;
+      background:
+        linear-gradient(120deg,transparent 0 30%,rgba(56,189,248,.2) 40%,transparent 55%),
+        linear-gradient(-120deg,transparent 0 35%,rgba(56,189,248,.18) 45%,transparent 60%);
+      background-size:260% 260%;
+      animation:moveLines 18s ease-in-out infinite alternate;
+      opacity:.55;
+      pointer-events:none;
+    }
+    .neon-grid{
+      position:fixed;
+      inset:0;
+      z-index:-3;
+      background-image:
+        linear-gradient(#0f172a33 1px,transparent 1px),
+        linear-gradient(90deg,#0f172a33 1px,transparent 1px);
+      background-size:40px 40px;
+      mask-image:radial-gradient(circle at 20% 0,rgba(0,0,0,.9),transparent 70%);
+      opacity:.5;
+      pointer-events:none;
+    }
+    @keyframes moveLines{
+      0%{background-position:0% 0%,100% 100%}
+      50%{background-position:100% 50%,0% 50%}
+      100%{background-position:50% 100%,50% 0}
+    }
+    .container{
+      max-width:1120px;
+      margin:0 auto;
+      padding:0 20px;
+    }
+    header{
+      padding:18px 0 8px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:18px;
+    }
+    .logo-row{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    .logo-mark{
+      width:44px;
+      height:44px;
+      border-radius:999px;
+      border:1px solid rgba(148,163,184,.5);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:radial-gradient(circle at 30% 0,#1f2937,#020617);
+      box-shadow:0 0 0 1px rgba(15,23,42,.7),0 0 24px rgba(74,224,255,.35);
+      font-size:22px;
+      font-weight:800;
+      color:var(--accent);
+    }
+    .logo-text-top{
+      font-weight:800;
+      letter-spacing:.18em;
+      font-size:12px;
+      text-transform:uppercase;
+      color:var(--primary-soft);
+    }
+    .logo-text-main{
+      font-weight:700;
+      font-size:18px;
+      color:#f9fafb;
+    }
+    nav{
+      display:flex;
+      align-items:center;
+      gap:18px;
+      font-size:14px;
+      color:var(--muted);
+    }
+    nav a{
+      position:relative;
+      padding-inline:2px;
+    }
+    nav a::after{
+      content:"";
+      position:absolute;
+      inset-inline:0;
+      bottom:-4px;
+      height:2px;
+      border-radius:999px;
+      background:linear-gradient(90deg,var(--primary),var(--accent));
+      transform:scaleX(0);
+      transform-origin:center;
+      transition:transform .18s ease-out;
+    }
+    nav a:hover{
+      color:#e2e8f0;
+    }
+    nav a:hover::after{
+      transform:scaleX(1);
+    }
+    .pill-lang{
+      padding:4px 10px;
+      border-radius:999px;
+      border:1px solid rgba(148,163,184,.6);
+      font-size:12px;
+      display:flex;
+      align-items:center;
+      gap:6px;
+      color:#cbd5f5;
+    }
+    .pill-lang span.current{
+      color:var(--accent);
+      font-weight:600;
+    }
+    .hero{
+      padding:40px 0 52px;
+      display:grid;
+      grid-template-columns:minmax(0,1.15fr) minmax(0,1.1fr);
+      gap:32px;
+      align-items:center;
+    }
+    .hero-main-kicker{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:4px 10px;
+      border-radius:999px;
+      border:1px solid rgba(148,163,184,.5);
+      background:#020617aa;
+      backdrop-filter:blur(10px);
+      font-size:11px;
+      color:#e5e7eb;
+      margin-bottom:12px;
+    }
+    .dot{
+      width:7px;height:7px;border-radius:999px;
+      background:radial-gradient(circle,#4ae0ff,#0ea5e9);
+      box-shadow:0 0 18px rgba(74,224,255,.9);
+    }
+    .hero-title{
+      font-size:36px;
+      line-height:1.15;
+      margin-bottom:12px;
+      font-weight:800;
+      color:#f9fafb;
+    }
+    .hero-highlight{
+      background:linear-gradient(90deg,#38bdf8,#22c55e);
+      -webkit-background-clip:text;
+      color:transparent;
+    }
+    .hero-desc{
+      font-size:15px;
+      color:#cbd5f5;
+      max-width:36rem;
+      margin-bottom:20px;
+    }
+    .hero-meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      align-items:center;
+      margin-top:14px;
+      font-size:12px;
+      color:var(--muted);
+    }
+    .hero-meta strong{color:#e5e7eb}
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+    }
+    .btn-primary{
+      position:relative;
+      border:none;
+      padding:11px 18px;
+      border-radius:999px;
+      font-weight:700;
+      font-size:14px;
+      cursor:pointer;
+      color:#0b1120;
+      background:radial-gradient(circle at 0 0,#4ae0ff,#0ea5e9);
+      box-shadow:0 0 25px rgba(14,165,233,.65);
+      overflow:hidden;
+      transition:transform .16s ease, box-shadow .16s ease;
+    }
+    .btn-primary::after{
+      content:"";
+      position:absolute;
+      inset:-40%;
+      background:radial-gradient(circle at 0 0,rgba(255,255,255,.4),transparent 55%);
+      opacity:0;
+      transform:translateX(-40%);
+      transition:opacity .2s ease, transform .20s ease;
+      pointer-events:none;
+    }
+    .btn-primary:hover{
+      transform:translateY(-1px) scale(1.01);
+      box-shadow:0 0 35px rgba(56,189,248,.85);
+    }
+    .btn-primary:hover::after{
+      opacity:1;
+      transform:translateX(10%);
+    }
+    .btn-ghost{
+      border-radius:999px;
+      border:1px solid rgba(148,163,184,.7);
+      background:#020617aa;
+      color:#e5e7eb;
+      padding:9px 14px;
+      font-size:13px;
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      cursor:pointer;
+      transition:background .18s ease,border-color .18s ease,transform .16s ease;
+    }
+    .btn-ghost:hover{
+      background:#020617;
+      border-color:var(--primary-soft);
+      transform:translateY(-1px);
+    }
+    .hero-right{
+      position:relative;
+      min-height:280px;
+      perspective:1200px;
+    }
+    .orbit{
+      position:absolute;
+      inset:-40px -70px;
+      background:
+        radial-gradient(circle at 10% 0,rgba(56,189,248,.28),transparent 55%),
+        radial-gradient(circle at 80% 80%,rgba(16,185,129,.24),transparent 55%);
+      opacity:.7;
+      filter:blur(1px);
+      z-index:-1;
+    }
+    .hero-stack{
+      position:absolute;
+      inset:auto 0 0;
+      right:4%;
+      width:270px;
+      height:230px;
+      pointer-events:none;
+    }
+    .stack-card{
+      position:absolute;
+      inset:0;
+      border-radius:16px;
+      background:radial-gradient(circle at 0 0,#020617,#020617);
+      border:1px solid rgba(148,163,184,.5);
+      box-shadow:0 20px 60px rgba(15,23,42,.95);
+      padding:14px 14px;
+      font-size:11px;
+      color:#e5e7eb;
+      transition:transform .25s ease, box-shadow .25s ease, opacity .25s ease, z-index .25s ease;
+      pointer-events:auto;
+      cursor:pointer;
+    }
+    .stack-card:nth-child(1){
+      transform:translate3d(12px,-22px,-40px) rotate(-4deg) scale(.92);
+      opacity:.68;
+      z-index:1;
+    }
+    .stack-card:nth-child(2){
+      transform:translate3d(-6px,0,0) rotate(1deg) scale(.97);
+      opacity:.9;
+      z-index:2;
+    }
+    .stack-card:nth-child(3){
+      transform:translate3d(-22px,22px,40px) rotate(3deg) scale(1.02);
+      z-index:3;
+    }
+    .hero-stack:hover .stack-card{
+      opacity:.6;
+    }
+    .stack-card:hover{
+      transform:translate3d(-6px,-6px,80px) scale(1.06);
+      opacity:1;
+      z-index:10;
+      box-shadow:0 28px 70px rgba(15,23,42,1),0 0 30px rgba(56,189,248,.75);
+    }
+    .stack-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:8px;
+      color:#94a3b8;
+    }
+    .badge-live{
+      padding:3px 8px;
+      border-radius:999px;
+      background:rgba(34,197,94,.08);
+      color:#4ade80;
+      font-size:10px;
+      display:flex;
+      align-items:center;
+      gap:4px;
+    }
+    .badge-dot{
+      width:6px;height:6px;border-radius:999px;background:#22c55e;
+      box-shadow:0 0 10px rgba(34,197,94,.9);
+    }
+    .hero-progress{
+      margin-top:4px;
+      border-radius:999px;
+      height:6px;
+      background:#020617;
+      overflow:hidden;
+      box-shadow:inset 0 0 0 1px rgba(30,64,175,.8);
+    }
+    .hero-progress span{
+      display:block;
+      height:100%;
+      width:72%;
+      background:linear-gradient(90deg,#22c55e,#4ade80,#22c55e);
+      background-size:200% 100%;
+      animation:progressFlow 11s linear infinite;
+    }
+    @keyframes progressFlow{
+      0%{background-position:0 0}
+      100%{background-position:200% 0}
+    }
+    .hero-stats{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:8px;
+      margin-top:10px;
+    }
+    .stat-card{
+      border-radius:10px;
+      background:radial-gradient(circle at 0 0,#0f172a,#020617);
+      border:1px solid rgba(30,64,175,.7);
+      padding:5px 7px;
+    }
+    .stat-label{
+      color:#94a3b8;
+      font-size:10px;
+      margin-bottom:2px;
+    }
+    .stat-value{
+      font-weight:700;
+      color:#e5e7eb;
+    }
+    .code-lines{
+      font-family:ui-monospace,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      font-size:10px;
+      color:#e5e7eb;
+      background:#020617;
+      border-radius:12px;
+      padding:7px 8px;
+      margin-top:4px;
+      box-shadow:inset 0 0 0 1px rgba(15,23,42,.9);
+    }
+    .code-lines span.keyword{color:#38bdf8;}
+    .code-lines span.fn{color:#22c55e;}
+    .device-pill{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 8px;
+      border-radius:999px;
+      background:#020617;
+      border:1px solid rgba(148,163,184,.55);
+      margin-top:6px;
+      font-size:10px;
+      color:#cbd5f5;
+    }
+    .device-dot{
+      width:16px;height:16px;border-radius:6px;
+      background:radial-gradient(circle at 0 0,#4ae0ff,#0ea5e9);
+      box-shadow:0 0 16px rgba(74,224,255,.8);
+    }
+    .floating-pill-main{
+      position:absolute;
+      top:18px;
+      left:4%;
+      border-radius:999px;
+      padding:7px 11px;
+      background:#020617dd;
+      border:1px solid rgba(56,189,248,.7);
+      color:#e5e7eb;
+      font-size:11px;
+      display:flex;
+      gap:8px;
+      align-items:center;
+      box-shadow:0 0 25px rgba(56,189,248,.7);
+      animation:pulseGlow 6s ease-in-out infinite;
+    }
+    @keyframes pulseGlow{
+      0%{transform:translateY(0);box-shadow:0 0 18px rgba(56,189,248,.5);}
+      50%{transform:translateY(-4px);box-shadow:0 0 36px rgba(56,189,248,.9);}
+      100%{transform:translateY(0);box-shadow:0 0 18px rgba(56,189,248,.5);}
+    }
+    .floating-pill-main span.value{
+      font-weight:700;
+      color:var(--accent);
+    }
+    section{
+      padding:24px 0 10px;
+    }
+    .section-head{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-end;
+      gap:10px;
+      margin-bottom:16px;
+    }
+    .section-title{
+      font-size:18px;
+      font-weight:700;
+      color:#e5e7eb;
+    }
+    .section-sub{
+      font-size:13px;
+      color:var(--muted);
+    }
+    .pill-small{
+      font-size:12px;
+      color:var(--primary-soft);
+      cursor:pointer;
+    }
+    .services-band{
+      border-radius:22px;
+      padding:14px 16px;
+      background:radial-gradient(circle at 0 0,#0b1120,#020617);
+      border:1px solid rgba(148,163,184,.4);
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+    .service-pill{
+      flex:1 1 180px;
+      min-width:0;
+      border-radius:18px;
+      padding:10px 12px;
+      background:#020617f0;
+      border:1px solid rgba(148,163,184,.45);
+      display:flex;
+      flex-direction:column;
+      gap:4px;
+      font-size:12px;
+      position:relative;
+      overflow:hidden;
+      cursor:pointer;
+      transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+    }
+    .service-pill::before{
+      content:"";
+      position:absolute;
+      inset:-40%;
+      background:radial-gradient(circle at 0 0,rgba(56,189,248,.3),transparent 55%);
+      opacity:0;
+      transition:opacity .18s ease;
+      pointer-events:none;
+    }
+    .service-pill:hover{
+      transform:translateY(-3px);
+      box-shadow:0 16px 40px rgba(15,23,42,1);
+      border-color:rgba(56,189,248,.9);
+    }
+    .service-pill:hover::before{opacity:1;}
+    .service-pill-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:8px;
+      margin-bottom:2px;
+    }
+    .service-name{
+      font-weight:700;
+      color:#e5e7eb;
+      font-size:13px;
+    }
+    .service-chip{
+      font-size:10px;
+      padding:3px 7px;
+      border-radius:999px;
+      border:1px solid rgba(56,189,248,.8);
+      color:#bae6fd;
+    }
+    .service-body{
+      color:#94a3b8;
+      line-height:1.5;
+    }
+    .projects-strip{
+      margin-top:14px;
+      border-radius:999px;
+      padding:10px 14px;
+      background:radial-gradient(circle at 0 0,#0b1120,#020617);
+      border:1px solid rgba(15,23,42,.9);
+      display:flex;
+      align-items:center;
+      gap:12px;
+      overflow:hidden;
+    }
+    .projects-strip-label{
+      font-size:12px;
+      color:#cbd5f5;
+      white-space:nowrap;
+    }
+    .logos-track{
+      display:flex;
+      gap:10px;
+      animation:logosMove 26s linear infinite;
+    }
+    .logo-chip{
+      padding:5px 10px;
+      border-radius:999px;
+      border:1px solid rgba(148,163,184,.6);
+      font-size:11px;
+      color:#e5e7eb;
+      background:#020617e6;
+      white-space:nowrap;
+    }
+    @keyframes logosMove{
+      0%{transform:translateX(0);}
+      100%{transform:translateX(-50%);}
+    }
+    .workflow-timeline{
+      position:relative;
+      padding-right:10px;
+      margin-top:6px;
+    }
+    .workflow-line{
+      position:absolute;
+      inset-block:4px 4px;
+      right:8px;
+      width:2px;
+      background:linear-gradient(180deg,#0ea5e9,#22c55e);
+      opacity:.6;
+    }
+    .step{
+      position:relative;
+      padding-right:26px;
+      padding-left:4px;
+      padding-block:10px;
+    }
+    .step:not(:last-child){
+      border-bottom:1px dashed rgba(30,64,175,.6);
+    }
+    .step-marker{
+      position:absolute;
+      right:0;
+      top:14px;
+      width:13px;
+      height:13px;
+      border-radius:999px;
+      border:2px solid #0ea5e9;
+      background:#020617;
+      box-shadow:0 0 0 3px rgba(15,23,42,1);
+    }
+    .step-order{
+      font-size:11px;
+      color:#38bdf8;
+      margin-bottom:3px;
+    }
+    .step-title{
+      font-size:13px;
+      font-weight:700;
+      color:#e5e7eb;
+      margin-bottom:3px;
+    }
+    .step-text{
+      font-size:12px;
+      color:#94a3b8;
+      line-height:1.6;
+    }
+    .why-grid{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:6px;
+    }
+    .why-row{
+      border-radius:18px;
+      padding:10px 12px;
+      background:radial-gradient(circle at 0 0,#020617,#020617);
+      border:1px solid rgba(30,64,175,.7);
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      position:relative;
+      overflow:hidden;
+    }
+    .why-tag{
+      font-size:11px;
+      padding:3px 8px;
+      border-radius:999px;
+      background:rgba(15,23,42,.95);
+      border:1px solid rgba(56,189,248,.8);
+      color:#bae6fd;
+      margin-bottom:4px;
+      white-space:nowrap;
+    }
+    .why-label{
+      font-size:11px;
+      color:#38bdf8;
+      white-space:nowrap;
+    }
+    .why-main{
+      flex:1;
+    }
+    .why-title{
+      font-size:13px;
+      font-weight:700;
+      color:#e5e7eb;
+      margin-bottom:3px;
+    }
+    .why-text{
+      font-size:12px;
+      color:#94a3b8;
+      line-height:1.6;
+    }
+    .cta{
+      margin:26px 0 40px;
+      border-radius:22px;
+      padding:18px 18px;
+      background:radial-gradient(circle at 0 0,#0f172a,#020617);
+      border:1px solid rgba(56,189,248,.6);
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      gap:14px;
+      justify-content:space-between;
+    }
+    .cta h3{
+      font-size:18px;
+      color:#e5e7eb;
+      margin-bottom:4px;
+    }
+    .cta p{
+      font-size:13px;
+      color:#94a3b8;
+    }
+    footer{
+      font-size:11px;
+      color:#6b7280;
+      padding:10px 22px 18px;
+      border-top:1px solid #111827;
+      background:#020617dd;
+    }
+    @media (max-width:900px){
+      header{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+      nav{font-size:13px;flex-wrap:wrap}
+      .hero{
+        grid-template-columns:minmax(0,1fr);
+        padding-top:24px;
+      }
+      .hero-right{
+        min-height:260px;
+        margin-top:10px;
+      }
+      .hero-stack{
+        right:50%;
+        transform:translateX(50%);
+      }
+      .floating-pill-main{
+        left:50%;
+        transform:translateX(-50%);
+      }
+      .services-band{
+        flex-direction:column;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <div class="neon-lines"></div>
+  <div class="neon-grid"></div>
+
+  <header class="container">
+    <div class="logo-row">
+      <div class="logo-mark">غ</div>
+      <div>
+        <div class="logo-text-top">GHAZAL TECH</div>
+        <div class="logo-text-main">حلول رقمية للشركات</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#">الخدمات</a>
+      <a href="#">أعمالنا</a>
+      <a href="#">النظام الإداري</a>
+      <a href="#">تواصل معنا</a>
+      <div class="pill-lang">
+        <span class="current">AR</span>
+        <span>TR</span>
+        <span>EN</span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="hero-main-kicker">
+          <div class="dot"></div>
+          <span>شركة برمجيات متخصصة بحلول الأعمال</span>
+        </div>
+        <h1 class="hero-title">
+          غزال تك، نطوّر لك
+          <span class="hero-highlight">منصات رقمية تتابع مشروعك لحظة بلحظة</span>
+        </h1>
+        <p class="hero-desc">
+          نصمّم ونبني مواقع وأنظمة ولوحات تحكم مخصّصة، مع مسار واضح من طلب الخدمة
+          إلى عرض السعر، التنفيذ، الدفعات، والتسليم — كل شيء في منصة واحدة أنيقة.
+        </p>
+        <div class="hero-actions">
+          <button class="btn-primary">ابدأ مشروعك الآن</button>
+          <button class="btn-ghost">
+            جرّب لوحة العميل
+          </button>
+        </div>
+        <div class="hero-meta">
+          <span>مشاريع من نوع <strong>مواقع شركات، متاجر، بوابات إدارية</strong></span>
+          <span>تتبّع تقدّم العمل من أي مكان، وبأي جهاز.</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="orbit"></div>
+        <div class="floating-pill-main">
+          <span>طلبات هذا الشهر</span>
+          <span class="value">+18 مشروع جديد</span>
+        </div>
+
+        <div class="hero-stack">
+          <article class="stack-card">
+            <div class="stack-header">
+              <span>Anadolu Fleet — لوحة مشروع</span>
+              <span class="badge-live"><span class="badge-dot"></span> يعمل الآن</span>
+            </div>
+            <div class="hero-progress">
+              <span></span>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <div class="stat-label">نسبة الإنجاز</div>
+                <div class="stat-value">72%</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">الدفعات المستلمة</div>
+                <div class="stat-value">2 / 3</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">تحديث آخر</div>
+                <div class="stat-value">اليوم 14:22</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">رسائل غير مقروءة</div>
+                <div class="stat-value">3</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="stack-card">
+            <div class="stack-header">
+              <span>كود مخصص لعميل</span>
+              <span>ghazal-tech/app</span>
+            </div>
+            <div class="code-lines">
+              <span class="keyword">const</span> project =
+              <span class="fn">createDashboard</span>({
+              client: "Anadolu",
+              locale: ["ar","tr","en"],
+              billing: "manualProof"
+              });
+              <br/>
+              <span class="keyword">await</span> project.trackMilestones();
+            </div>
+            <div class="device-pill">
+              <div class="device-dot"></div>
+              <span>تجربة متجاوبة — موبايل، تابلت، وكمبيوتر.</span>
+            </div>
+          </article>
+
+          <article class="stack-card">
+            <div class="stack-header">
+              <span>ملخص أداء جميع المشاريع</span>
+              <span>لوحة المدير</span>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <div class="stat-label">مشاريع نشطة</div>
+                <div class="stat-value">9</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">طلبات جديدة</div>
+                <div class="stat-value">4 اليوم</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">إيصالات قيد المراجعة</div>
+                <div class="stat-value">5</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">عمولات إحالة</div>
+                <div class="stat-value">$742</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div>
+          <div class="section-title">خدمات نبنيها خصيصاً لعملك</div>
+          <div class="section-sub">اختصر الفوضى بين الرسائل، الإكسل، ومتابعة الفريق — واجمع كل شيء في منصة واحدة.</div>
+        </div>
+        <div class="pill-small">استعراض جميع الخدمات ↗</div>
+      </div>
+
+      <div class="services-band">
+        <article class="service-pill">
+          <div class="service-pill-header">
+            <div class="service-name">مواقع شركات مخصّصة</div>
+            <div class="service-chip">هوية رقمية + صفحات ديناميكية</div>
+          </div>
+          <p class="service-body">
+            موقع احترافي مع لوحة تحديث محتوى، تجهيز كامل للسيو، وتجربة بثلاث لغات من اليوم الأول.
+          </p>
+        </article>
+
+        <article class="service-pill">
+          <div class="service-pill-header">
+            <div class="service-name">بوابات إدارية ولوحات تحكم</div>
+            <div class="service-chip">إدارة حجوزات، عملاء، وفواتير</div>
+          </div>
+          <p class="service-body">
+            أنظمة تعمل كقلب التشغيل لعملك: صلاحيات متعددة، مهام، وإشعارات لحظية عن تقدّم كل مشروع.
+          </p>
+        </article>
+
+        <article class="service-pill">
+          <div class="service-pill-header">
+            <div class="service-name">متاجر وتجارب حجز</div>
+            <div class="service-chip">منتجات، باقات، واشتراكات</div>
+          </div>
+          <p class="service-body">
+            من اختيار الخدمة إلى الدفع والمتابعة بعد البيع، مع مسار واضح يزيد المبيعات ويقلّل الأسئلة المتكررة.
+          </p>
+        </article>
+      </div>
+
+      <div class="projects-strip">
+        <div class="projects-strip-label">منصّات طُوّرت أو تُطوَّر عبر غزال تك:</div>
+        <div class="logos-track">
+          <div class="logo-chip">Anadolu Fleet</div>
+          <div class="logo-chip">Al-Manar Clinic</div>
+          <div class="logo-chip">Nova Cars</div>
+          <div class="logo-chip">BlueStay Hotels</div>
+          <div class="logo-chip">Syriapress Platform</div>
+          <div class="logo-chip">Anadolu Fleet</div>
+          <div class="logo-chip">Al-Manar Clinic</div>
+          <div class="logo-chip">Nova Cars</div>
+          <div class="logo-chip">BlueStay Hotels</div>
+          <div class="logo-chip">Syriapress Platform</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div>
+          <div class="section-title">كيف نُدير مشروعك من أول مكالمة حتى التسليم؟</div>
+          <div class="section-sub">عملية واضحة، تراك أنت و فريقك، وتقدر تراجعها في أي وقت.</div>
+        </div>
+      </div>
+
+      <div class="workflow-timeline">
+        <div class="workflow-line"></div>
+
+        <div class="step">
+          <div class="step-marker"></div>
+          <div class="step-order">01 · فهم الفكرة</div>
+          <div class="step-title">استقبال الطلب وتفاصيل العمل</div>
+          <div class="step-text">
+            تنشئ طلب عبر الموقع أو لوحة العميل، نراجع الاحتياجات ونطرح الأسئلة الصحيحة قبل أي سطر كود.
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-marker"></div>
+          <div class="step-order">02 · الخطة</div>
+          <div class="step-title">عرض سعر وجدول زمني واضح</div>
+          <div class="step-text">
+            نرسل لك عرضاً مفصّلاً داخل حسابك، مع المراحل والدفعات وموعد التسليم لكل جزء من المشروع.
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-marker"></div>
+          <div class="step-order">03 · التنفيذ والمتابعة</div>
+          <div class="step-title">تحديثات حيّة على لوحة المشروع</div>
+          <div class="step-text">
+            تشاهد التقدّم، الملفات، النسخ التجريبية، وحالة كل دفعة — وتعلّق مباشرة من نفس اللوحة.
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-marker"></div>
+          <div class="step-order">04 · التسليم والدعم</div>
+          <div class="step-title">إطلاق المشروع وما بعده</div>
+          <div class="step-text">
+            بعد التسليم، نتيح لك طلب تعديلات مدفوعة ودعم تقني مستمر لتطوير المنصّة مع نمو عملك.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div>
+          <div class="section-title">لماذا يختارنا عملاؤنا؟</div>
+          <div class="section-sub">لسنا مجرد “موقع وانتهى” — نبني نظاماً كاملاً يرافق عملك.</div>
+        </div>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-row">
+          <div>
+            <div class="why-tag">الشفافية</div>
+            <div class="why-label">كل شيء موثق داخل حسابك</div>
+          </div>
+          <div class="why-main">
+            <div class="why-title">عروض سعر واضحة، بنود مفهومة، ودفعات محدّدة.</div>
+            <div class="why-text">
+              كل بند، كل ساعة عمل، وكل دفعة موثّقة داخل لوحة العميل، بدون ملفات متفرّقة أو رسائل ضائعة في الواتساب.
+            </div>
+          </div>
+        </div>
+
+        <div class="why-row">
+          <div>
+            <div class="why-tag">التحكّم</div>
+            <div class="why-label">لوحة متابعة للمشروع</div>
+          </div>
+          <div class="why-main">
+            <div class="why-title">تعرف أين وصلنا بدون أن تسأل "وين المشروع؟".</div>
+            <div class="why-text">
+              Timeline، مراحل، ملفات، تعليقات، وسجل تغييرات، لتبقى مطّلعاً على سير العمل خطوة بخطوة.
+            </div>
+          </div>
+        </div>
+
+        <div class="why-row">
+          <div>
+            <div class="why-tag">المرونة</div>
+            <div class="why-label">دفعات وتحويلات يدوية</div>
+          </div>
+          <div class="why-main">
+            <div class="why-title">ندعم الحوالات البنكية والكريبتو مع إثبات دفع داخل النظام.</div>
+            <div class="why-text">
+              ترفع إيصال الدفع، نراجعه، نحدّث حالة الدفعة، ويبقى كل شيء مرتباً ضمن سجل مالي واحد لمشروعك.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h3>جاهز تحوّل فكرتك إلى منصة حقيقية؟</h3>
+        <p>أرسل لنا تفاصيل مشروعك خلال أقل من دقيقتين، نستلم الطلب ونعود إليك بعرض سعر وجدول زمني واضح.</p>
+      </div>
+      <button class="btn-primary">اطلب عرض سعر الآن</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;">
+      <span>© 2025 غزال تك — حلول رقمية للأعمال.</span>
+      <span>هذا التصميم نموذج أولي للواجهة التسويقية، قابل للبناء فوقه في Next.js.</span>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

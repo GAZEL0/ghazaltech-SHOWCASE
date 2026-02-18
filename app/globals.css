@@ -1,0 +1,735 @@
+@import "tailwindcss";
+
+:root {
+  --background: #020617;
+  --foreground: #e2e8f0;
+  color-scheme: dark;
+}
+
+.theme-dark {
+  --background: #020617;
+  --foreground: #e2e8f0;
+  color-scheme: dark;
+}
+
+.gt-navbar {
+  position: relative;
+}
+
+.gt-navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  border-radius: inherit;
+  background: inherit;
+  box-shadow: inherit;
+  border: inherit;
+  z-index: -1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-cairo), var(--font-inter), system-ui, -apple-system,
+    sans-serif;
+  min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.font-arabic {
+  font-family: var(--font-arabic), var(--font-geist-sans), system-ui,
+    -apple-system, sans-serif;
+}
+
+.neon-content > main {
+  flex: 1 1 auto;
+}
+
+/* === LIGHT THEME – NEON LIGHT PALETTE === */
+
+:root.theme-light {
+  color-scheme: light;
+
+  /* page + shells */
+  --gt-page-bg: radial-gradient(circle at 50% 12%, #e6f5ff 0%, #cfe5ff 40%, #a9cffd 80%, #94c0f7 100%);
+  --gt-shell-bg: radial-gradient(circle at 50% 12%, #e6f5ff 0%, #cfe5ff 40%, #a9cffd 78%, #94c0f7 100%);
+
+  /* surfaces */
+  --gt-surface: rgba(249, 251, 255, 0.12);
+  --gt-surface-soft: rgba(237, 243, 255, 0.08);
+  --gt-surface-strong: rgba(226, 236, 255, 0.18);
+
+  /* borders & shadows */
+  --gt-border-subtle: #c3d4ff;
+  --gt-border-strong: #2563eb;
+  --gt-shadow-soft: 0 24px 80px rgba(15, 23, 42, 0.16);
+  --gt-shadow-small: 0 14px 40px rgba(15, 23, 42, 0.10);
+
+  /* text */
+  --gt-text-main: #020617;
+  --gt-text-muted: #475569;
+  --gt-text-soft: #94a3b8;
+
+  /* accents (same as dark) */
+  --gt-accent: #06b6d4;
+  --gt-accent-strong: #0ea5e9;
+}
+
+/* page background + base text */
+html.theme-light body {
+  background: transparent !important; /* لا خلفية */
+  color: var(--gt-text-main);
+}
+
+html.theme-light .neon-shell {
+  background: none !important;
+}
+
+html.theme-light .gt-hero-bg {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+
+/* main outer shell (marketing + dashboard) */
+html.theme-light .neon-shell {
+  position: relative;
+  background: radial-gradient(circle at 50% 12%, #e6f5ff 0%, #cfe5ff 40%, #a9cffd 78%, #94c0f7 100%);
+  color: var(--gt-text-main);
+}
+
+html.theme-light .neon-shell::before {
+  display: none;
+}
+
+/* hero wrapper – same layout as dark, فقط ألوان */
+html.theme-light .gt-hero-bg {
+  position: relative;
+  overflow: visible;
+  background-color: var(--gt-surface);
+  background-image: radial-gradient(
+      120% 140% at 50% 42%,
+      rgba(233, 241, 255, 0.18),
+      rgba(233, 241, 255, 0.04) 68%,
+      rgba(233, 241, 255, 0) 100%
+    ),
+    var(--gt-shell-bg);
+  border-color: rgba(148, 163, 184, 0.28);
+  border-radius: 48px;
+  box-shadow: 0 28px 90px rgba(15, 23, 42, 0.16),
+    0 0 0 1px rgba(148, 163, 184, 0.22),
+    0 40px 140px rgba(14, 165, 233, 0.12);
+  color: var(--gt-text-main);
+}
+
+html.theme-light .gt-hero-bg::before {
+  content: "";
+  position: absolute;
+  inset: -32px;
+  border-radius: inherit;
+  background: radial-gradient(140% 140% at 50% 50%, rgba(188, 214, 255, 0.35), rgba(188, 214, 255, 0));
+  filter: blur(30px);
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+html.theme-light .gt-hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: radial-gradient(140% 140% at 50% 40%, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+
+html.theme-light .gt-hero-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* generic cards / sections */
+html.theme-light .gt-card,
+html.theme-light .gt-surface {
+  background-color: transparent;
+  border-color: rgba(147, 181, 255, 0.8);
+  box-shadow: 0 10px 32px rgba(15, 23, 42, 0.12);
+  color: var(--gt-text-main);
+}
+
+/* hero container floats directly on global neon */
+html.theme-light .gt-hero-bg {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* muted text inside cards */
+html.theme-light .gt-card .gt-text-muted,
+html.theme-light .gt-surface .gt-text-muted {
+  color: var(--gt-text-muted);
+}
+
+/* timeline shell */
+html.theme-light .gt-timeline-shell {
+  background-color: transparent;
+  border-color: var(--gt-border-subtle);
+  box-shadow: none;
+}
+
+/* navbar / dashboard topbar */
+html.theme-light .gt-navbar,
+html.theme-light .gt-topbar {
+  background: transparent;
+  border-bottom: none;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+/* muted text helper */
+html.theme-light .gt-text-muted {
+  color: var(--gt-text-muted);
+}
+
+/* pill text contrast on cards */
+html.theme-light .card-pill {
+  color: #0f172a;
+  background-color: rgba(14, 165, 233, 0.12);
+  border-color: #7cc6ff;
+}
+
+/* optional dark chips that should stay dark in both themes */
+html.theme-light .gt-chip-dark {
+  background-color: #020617;
+  color: #e2e8f0;
+}
+
+/* Light theme global neon background */
+html.theme-light .neon-bg {
+  background: radial-gradient(circle at 40% 0%, #e7f3ff 0%, #d6ecff 45%, #f6f9ff 100%);
+}
+
+html.theme-light .neon-glow {
+  opacity: 0.55;
+  background: linear-gradient(120deg, transparent 0 30%, rgba(59, 130, 246, 0.12) 40%, transparent 55%),
+    linear-gradient(-120deg, transparent 0 35%, rgba(14, 165, 233, 0.12) 45%, transparent 60%);
+}
+
+html.theme-light .neon-grid {
+  opacity: 0.35;
+  background-image: linear-gradient(#c7d7f533 1px, transparent 1px), linear-gradient(90deg, #c7d7f533 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(circle at 20% 0, rgba(0, 0, 0, 0.55), transparent 65%);
+}
+
+/* === LIGHT THEME: map dark palette classes to light equivalents === */
+
+/* backgrounds */
+html.theme-light [class*="bg-[#020617"] {
+  background-color: #f5f7ff !important;
+  background-image: none !important;
+}
+
+html.theme-light [class*="bg-[#020617f0"] {
+  background-color: #eef3ff !important;
+}
+
+html.theme-light [class*="bg-[#020617aa"] {
+  background-color: #e2ecff !important;
+}
+
+html.theme-light [class*="bg-slate-950"] {
+  background-color: #f5f7ff !important;
+}
+
+html.theme-light [class*="bg-slate-900"] {
+  background-color: #e2ecff !important;
+}
+
+html.theme-light [class*="bg-[#0b1120"] {
+  background-color: #f9fbff !important;
+}
+
+html.theme-light [class*="bg-[#050b18"] {
+  background-color: #edf3ff !important;
+}
+
+html.theme-light [class*="bg-[#0f172a"] {
+  background-color: #e2ecff !important;
+}
+
+/* gradient backgrounds */
+html.theme-light
+  [class*="bg-[radial-gradient(circle_at_top,#1e293b_0%,#020617_55%)]"] {
+  background-image: radial-gradient(
+    circle at top,
+    #e0f2fe 0%,
+    #f5f7ff 45%,
+    #dbeafe 100%
+  ) !important;
+}
+
+html.theme-light
+  [class*="bg-[radial-gradient(circle_at_30%_0,#1f2937,#020617)]"] {
+  background-image: radial-gradient(circle at 30% 0, #e0f2fe, #e2ecff) !important;
+}
+
+html.theme-light
+  [class*="bg-[radial-gradient(circle_at_0_0,#020617,#020617)]"] {
+  background-image: radial-gradient(circle at 0 0, #f9fbff, #f5f7ff) !important;
+}
+
+html.theme-light
+  [class*="bg-[radial-gradient(circle_at_0_0,#0b1120,#020617)]"] {
+  background-image: radial-gradient(circle at 0 0, #f9fbff, #f5f7ff) !important;
+}
+
+html.theme-light
+  [class*="bg-[radial-gradient(circle_at_0_0,#0f172a,#020617)]"] {
+  background-image: radial-gradient(circle at 0 0, #e2ecff, #f5f7ff) !important;
+}
+
+/* Case studies light theme tweaks */
+html.theme-light .case-studies-hero-bg {
+  background: radial-gradient(circle at top, #e0f2fe 0%, #f5f7ff 55%, #dbeafe 100%) !important;
+}
+
+html.theme-light .case-studies-hero-grid {
+  opacity: 0.4;
+  background-image: linear-gradient(#c7d7f533 1px, transparent 1px),
+    linear-gradient(90deg, #c7d7f533 1px, transparent 1px) !important;
+}
+
+html.theme-light .case-studies-hero-glow {
+  opacity: 0.35;
+}
+
+html.theme-light .case-studies-hero-card {
+  background-color: #f9fbff !important;
+  border-color: #c3d4ff !important;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+}
+
+html.theme-light .case-studies-progress-panel {
+  background-color: #f5f7ff !important;
+  border-color: #c3d4ff !important;
+}
+
+html.theme-light .case-studies-card {
+  background-color: #f9fbff !important;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+}
+
+html.theme-light .case-studies-card-active {
+  background-color: #eef3ff !important;
+  box-shadow: 0 18px 45px rgba(14, 165, 233, 0.18);
+}
+
+html.theme-light .case-studies-card-panel {
+  background-color: #f1f5ff !important;
+}
+
+html.theme-light .map-preview-dark {
+  opacity: 0;
+}
+
+html.theme-light .map-preview-light {
+  opacity: 1;
+}
+
+html.theme-dark .map-preview-light {
+  opacity: 0;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  html.theme-dark :is(a, button, [role="button"], input[type="button"], input[type="submit"], input[type="reset"]):active {
+    filter: brightness(1.08);
+  }
+
+  html.theme-light :is(a, button, [role="button"], input[type="button"], input[type="submit"], input[type="reset"]):active {
+    filter: brightness(0.96);
+  }
+
+  :is(a, button, [role="button"], input[type="button"], input[type="submit"], input[type="reset"]):focus-visible {
+    outline: 2px solid rgba(56, 189, 248, 0.5);
+    outline-offset: 2px;
+  }
+}
+
+/* borders */
+html.theme-light [class*="border-slate-800"] {
+  border-color: #c3d4ff !important;
+}
+
+html.theme-light [class*="border-slate-600"] {
+  border-color: #cad4f5 !important;
+}
+
+html.theme-light [class*="border-slate-500"] {
+  border-color: #d3ddff !important;
+}
+
+/* text colors */
+html.theme-light [class*="text-slate-200"],
+html.theme-light [class*="text-slate-100"],
+html.theme-light [class*="text-slate-50"] {
+  color: #020617 !important;
+}
+
+html.theme-light [class*="text-slate-300"] {
+  color: #1f2937 !important;
+}
+
+html.theme-light [class*="text-slate-400"] {
+  color: #64748b !important;
+}
+
+html.theme-light [class*="text-slate-500"] {
+  color: #94a3b8 !important;
+}
+
+html.theme-light [class*="text-slate-600"] {
+  color: #94a3b8 !important;
+}
+
+/* Light theme: ensure accent text stays dark for readability */
+html.theme-light [class*="text-emerald-"] {
+  color: #064e3b !important;
+}
+
+html.theme-light [class*="text-sky-"],
+html.theme-light [class*="text-cyan-"],
+html.theme-light [class*="text-blue-"] {
+  color: #1e3a8a !important;
+}
+
+html.theme-light [class*="text-indigo-"] {
+  color: #312e81 !important;
+}
+
+html.theme-light [class*="text-teal-"] {
+  color: #134e4a !important;
+}
+
+html.theme-light [class*="text-amber-"] {
+  color: #7c2d12 !important;
+}
+
+html.theme-light [class*="text-rose-"],
+html.theme-light [class*="text-red-"] {
+  color: #7f1d1d !important;
+}
+
+/* shadows */
+html.theme-light
+  [class*="shadow-[0_20px_60px_rgba(15,23,42,0.95)]"],
+html.theme-light [class*="shadow-[0_20px_60px_rgba(15,23,42,1)]"],
+html.theme-light [class*="shadow-[0_28px_70px_rgba(15,23,42,1)]"],
+html.theme-light [class*="shadow-[0_16px_40px_rgba(15,23,42,1)]"] {
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.16) !important;
+}
+
+html.theme-light [class*="shadow-[0_12px_30px_rgba(15,23,42,0.9)]"],
+html.theme-light [class*="shadow-[0_12px_30px_rgba(15,23,42,0.8)]"],
+html.theme-light [class*="shadow-[0_0_0_3px_rgba(15,23,42,1)]"] {
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1) !important;
+}
+
+html.theme-light
+  [class*="shadow-[inset_0_0_0_1px_rgba(15,23,42,0.9)]"] {
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.1) !important;
+}
+
+html.theme-light
+  [class*="shadow-[0_0_0_1px_rgba(15,23,42,0.7),0_0_24px_rgba(74,224,255,0.35)]"] {
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.1),
+    0 0 24px rgba(74, 224, 255, 0.35) !important;
+}
+
+/* Why Ghazal Tech cards – LIGHT ONLY */
+html.theme-light .why-card {
+  color: var(--gt-text-main);
+}
+
+html.theme-light .why-card-title {
+  color: #1f2937;
+  font-weight: 700;
+}
+
+html.theme-light .why-card-body {
+  color: #475569;
+}
+
+/* Hero text contrast */
+html.theme-light .gt-hero-bg h1,
+html.theme-light .gt-hero-bg h2 {
+  color: #0f172a;
+}
+
+html.theme-light .gt-hero-bg p {
+  color: #475569;
+}
+
+/* floating hero cards – LIGHT ONLY */
+html.theme-light .hero-floating-card {
+  box-shadow: 0 18px 55px rgba(15, 23, 42, 0.14);
+}
+
+/* CTA text inside cards – keep visible on light */
+html.theme-light .card-cta {
+  color: #0ea5e9;
+}
+
+html.theme-light .card-cta:hover,
+html.theme-light .card-cta:focus-visible {
+  color: #0369a1;
+}
+
+/* brand mark contrast on light */
+html.theme-light .brand-mark {
+  color: #0f172a;
+}
+
+/* Template listing price clarity on light */
+html.theme-light .template-price {
+  color: #0f172a !important;
+}
+
+/* Footer – LIGHT THEME ONLY */
+html.theme-light .site-footer {
+  background-color: transparent;
+  color: #475569;
+}
+
+html.theme-light .site-footer a {
+  color: #0ea5e9;
+}
+html.theme-light .site-footer a:hover {
+  color: #0369a1;
+}
+
+@keyframes neonLines {
+  0% {
+    background-position: 0% 0%, 100% 100%;
+  }
+  50% {
+    background-position: 100% 50%, 0% 50%;
+  }
+  100% {
+    background-position: 50% 100%, 50% 0%;
+  }
+}
+
+@keyframes progressFlow {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes logosMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.3333%);
+  }
+}
+
+@keyframes pulseGlow {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 0 18px rgba(56, 189, 248, 0.5);
+  }
+  50% {
+    transform: translateY(-4px);
+    box-shadow: 0 0 36px rgba(56, 189, 248, 0.9);
+  }
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 0 18px rgba(56, 189, 248, 0.5);
+  }
+}
+
+@keyframes supportFade {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes supportDrift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes supportDrawCheck {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.support-fade {
+  animation: supportFade 0.4s ease both;
+}
+
+.support-gradient {
+  background-size: 200% 200%;
+  animation: supportDrift 18s ease infinite;
+}
+
+.support-check {
+  stroke-dasharray: 24;
+  stroke-dashoffset: 24;
+  animation: supportDrawCheck 1.2s ease forwards;
+}
+
+@keyframes aboutWord {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes aboutPath {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -180;
+  }
+}
+
+@keyframes aboutDrift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.about-word {
+  display: inline-block;
+  opacity: 0;
+  animation: aboutWord 0.55s ease forwards;
+}
+
+.about-path {
+  stroke-dasharray: 8 14;
+  animation: aboutPath 18s linear infinite;
+}
+
+.about-reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-cta {
+  background: radial-gradient(circle at 10% 20%, rgba(56, 189, 248, 0.18), transparent 55%),
+    radial-gradient(circle at 90% 80%, rgba(34, 197, 94, 0.16), transparent 55%);
+  background-size: 200% 200%;
+  animation: aboutDrift 16s ease infinite;
+  opacity: 0.7;
+}
+
+@keyframes faqHeroIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes faqFade {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes faqTyping {
+  0%,
+  80%,
+  100% {
+    transform: scale(0.6);
+    opacity: 0.4;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.faq-hero {
+  animation: faqHeroIn 0.45s ease both;
+}
+
+.faq-fade {
+  animation: faqFade 0.35s ease both;
+}
+
+.faq-highlight {
+  background: linear-gradient(120deg, rgba(56, 189, 248, 0.25), rgba(34, 197, 94, 0.2));
+  color: inherit;
+  padding: 0 3px;
+  border-radius: 6px;
+}
+
+.faq-typing {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.faq-typing span {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.6);
+  animation: faqTyping 1s infinite;
+}
+
+.faq-typing span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.faq-typing span:nth-child(3) {
+  animation-delay: 0.3s;
+}
